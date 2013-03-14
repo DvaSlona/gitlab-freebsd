@@ -69,7 +69,7 @@ do-build:
 	fi
 
 do-install:
-	@if ! pkg_info 'ruby>=1.9.3,1' 2>/dev/null; then \
+	@if ! pkg_info 'ruby>=1.9.3,1' >/dev/null 2>/dev/null; then \
 		(cd ${PORTSDIR}/lang/ruby19 && make install clean); \
 	fi
 	@pw useradd ${GITLAB_USER} -g ${GITLAB_GROUP} -d ${WWWDIR} -m -s /bin/nologin -c 'GitLab'
@@ -86,7 +86,7 @@ do-install:
 	@cp ${WWWDIR}/.ssh/id_rsa.pub ${GIT_HOME}/gitlab.pub
 	@${CHMOD} 0444 ${GIT_HOME}/gitlab.pub
 	@sudo -u git -H sh -c "PATH=${GIT_HOME}/bin:$$PATH; gitolite setup -pk ${GIT_HOME}/gitlab.pub"
-	@${MKDIR} -m 750 ${GIT_HOME}/.gitolite
+	@${CHMOD} 750 ${GIT_HOME}/.gitolite/
 	@${CHOWN} -R git:git ${GIT_HOME}
 	@${CHMOD} -R ug+rwX,o-rwx ${GIT_HOME}/repositories/
 	@${CHOWN} -R git:git ${GIT_HOME}/repositories/
