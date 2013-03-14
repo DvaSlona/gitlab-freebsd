@@ -1,0 +1,1617 @@
+@stopdaemon gitlab
+%%WWWDIR%%/CHANGELOG
+%%WWWDIR%%/CONTRIBUTING.md
+%%WWWDIR%%/Gemfile
+%%WWWDIR%%/Gemfile.lock
+%%WWWDIR%%/Gemfile.lock.orig
+%%WWWDIR%%/Guardfile
+%%WWWDIR%%/LICENSE
+%%WWWDIR%%/Procfile
+%%WWWDIR%%/README.md
+%%WWWDIR%%/ROADMAP.md
+%%WWWDIR%%/Rakefile
+%%WWWDIR%%/VERSION
+%%WWWDIR%%/.ssh/id_rsa
+%%WWWDIR%%/.ssh/id_rsa.pub
+%%WWWDIR%%/.ssh/known_hosts
+%%WWWDIR%%/app/assets/fonts/OFL.txt
+%%WWWDIR%%/app/assets/fonts/YanoneKaffeesatz-Light.ttf
+%%WWWDIR%%/app/assets/images/Storage-UI.PNG
+%%WWWDIR%%/app/assets/images/ajax_loader.gif
+%%WWWDIR%%/app/assets/images/ajax_loader_gray.gif
+%%WWWDIR%%/app/assets/images/ajax_loader_tree.gif
+%%WWWDIR%%/app/assets/images/bg-header.png
+%%WWWDIR%%/app/assets/images/chosen-sprite.png
+%%WWWDIR%%/app/assets/images/dark.png
+%%WWWDIR%%/app/assets/images/diff_note_add.png
+%%WWWDIR%%/app/assets/images/favicon.ico
+%%WWWDIR%%/app/assets/images/file_bin.png
+%%WWWDIR%%/app/assets/images/file_dir.png
+%%WWWDIR%%/app/assets/images/file_empty.png
+%%WWWDIR%%/app/assets/images/file_img.png
+%%WWWDIR%%/app/assets/images/file_txt.png
+%%WWWDIR%%/app/assets/images/icon-search.png
+%%WWWDIR%%/app/assets/images/images.png
+%%WWWDIR%%/app/assets/images/login-logo.png
+%%WWWDIR%%/app/assets/images/logo_dark.png
+%%WWWDIR%%/app/assets/images/logo_white.png
+%%WWWDIR%%/app/assets/images/merge.png
+%%WWWDIR%%/app/assets/images/move.png
+%%WWWDIR%%/app/assets/images/no_avatar.png
+%%WWWDIR%%/app/assets/images/onion_skin_sprites.gif
+%%WWWDIR%%/app/assets/images/rss_ui.png
+%%WWWDIR%%/app/assets/images/submodule.png
+%%WWWDIR%%/app/assets/images/swipemode_sprites.gif
+%%WWWDIR%%/app/assets/images/switch_icon.png
+%%WWWDIR%%/app/assets/images/trans_bg.gif
+%%WWWDIR%%/app/assets/images/white.png
+%%WWWDIR%%/app/assets/javascripts/admin.js.coffee
+%%WWWDIR%%/app/assets/javascripts/application.js
+%%WWWDIR%%/app/assets/javascripts/behaviors/details_behavior.coffee
+%%WWWDIR%%/app/assets/javascripts/behaviors/toggler_behavior.coffee
+%%WWWDIR%%/app/assets/javascripts/commit/file.js.coffee
+%%WWWDIR%%/app/assets/javascripts/commit/image-file.js.coffee
+%%WWWDIR%%/app/assets/javascripts/commits.js.coffee
+%%WWWDIR%%/app/assets/javascripts/dashboard.js.coffee
+%%WWWDIR%%/app/assets/javascripts/extensions/array.js
+%%WWWDIR%%/app/assets/javascripts/gfm_auto_complete.js.coffee
+%%WWWDIR%%/app/assets/javascripts/issues.js
+%%WWWDIR%%/app/assets/javascripts/main.js.coffee
+%%WWWDIR%%/app/assets/javascripts/merge_requests.js.coffee
+%%WWWDIR%%/app/assets/javascripts/milestones.js.coffee
+%%WWWDIR%%/app/assets/javascripts/notes.js
+%%WWWDIR%%/app/assets/javascripts/pager.js.coffee
+%%WWWDIR%%/app/assets/javascripts/profile.js.coffee
+%%WWWDIR%%/app/assets/javascripts/projects.js.coffee
+%%WWWDIR%%/app/assets/javascripts/tree.js.coffee
+%%WWWDIR%%/app/assets/stylesheets/application.scss
+%%WWWDIR%%/app/assets/stylesheets/behaviors.scss
+%%WWWDIR%%/app/assets/stylesheets/common.scss
+%%WWWDIR%%/app/assets/stylesheets/gitlab_bootstrap.scss
+%%WWWDIR%%/app/assets/stylesheets/gitlab_bootstrap/avatar.scss
+%%WWWDIR%%/app/assets/stylesheets/gitlab_bootstrap/blocks.scss
+%%WWWDIR%%/app/assets/stylesheets/gitlab_bootstrap/buttons.scss
+%%WWWDIR%%/app/assets/stylesheets/gitlab_bootstrap/common.scss
+%%WWWDIR%%/app/assets/stylesheets/gitlab_bootstrap/files.scss
+%%WWWDIR%%/app/assets/stylesheets/gitlab_bootstrap/fonts.scss
+%%WWWDIR%%/app/assets/stylesheets/gitlab_bootstrap/lists.scss
+%%WWWDIR%%/app/assets/stylesheets/gitlab_bootstrap/mixins.scss
+%%WWWDIR%%/app/assets/stylesheets/gitlab_bootstrap/nav.scss
+%%WWWDIR%%/app/assets/stylesheets/gitlab_bootstrap/tables.scss
+%%WWWDIR%%/app/assets/stylesheets/gitlab_bootstrap/typography.scss
+%%WWWDIR%%/app/assets/stylesheets/gitlab_bootstrap/variables.scss
+%%WWWDIR%%/app/assets/stylesheets/highlight/dark.scss
+%%WWWDIR%%/app/assets/stylesheets/highlight/white.scss
+%%WWWDIR%%/app/assets/stylesheets/jquery.ui.gitlab.css
+%%WWWDIR%%/app/assets/stylesheets/ref_select.scss
+%%WWWDIR%%/app/assets/stylesheets/sections/admin.scss
+%%WWWDIR%%/app/assets/stylesheets/sections/commits.scss
+%%WWWDIR%%/app/assets/stylesheets/sections/editor.scss
+%%WWWDIR%%/app/assets/stylesheets/sections/events.scss
+%%WWWDIR%%/app/assets/stylesheets/sections/graph.scss
+%%WWWDIR%%/app/assets/stylesheets/sections/header.scss
+%%WWWDIR%%/app/assets/stylesheets/sections/issues.scss
+%%WWWDIR%%/app/assets/stylesheets/sections/login.scss
+%%WWWDIR%%/app/assets/stylesheets/sections/merge_requests.scss
+%%WWWDIR%%/app/assets/stylesheets/sections/nav.scss
+%%WWWDIR%%/app/assets/stylesheets/sections/notes.scss
+%%WWWDIR%%/app/assets/stylesheets/sections/profile.scss
+%%WWWDIR%%/app/assets/stylesheets/sections/projects.scss
+%%WWWDIR%%/app/assets/stylesheets/sections/snippets.scss
+%%WWWDIR%%/app/assets/stylesheets/sections/themes.scss
+%%WWWDIR%%/app/assets/stylesheets/sections/tree.scss
+%%WWWDIR%%/app/assets/stylesheets/sections/votes.scss
+%%WWWDIR%%/app/assets/stylesheets/themes/ui_basic.scss
+%%WWWDIR%%/app/assets/stylesheets/themes/ui_color.scss
+%%WWWDIR%%/app/assets/stylesheets/themes/ui_gray.scss
+%%WWWDIR%%/app/assets/stylesheets/themes/ui_mars.scss
+%%WWWDIR%%/app/assets/stylesheets/themes/ui_modern.scss
+%%WWWDIR%%/app/contexts/base_context.rb
+%%WWWDIR%%/app/contexts/commit_load_context.rb
+%%WWWDIR%%/app/contexts/filter_context.rb
+%%WWWDIR%%/app/contexts/issues_bulk_update_context.rb
+%%WWWDIR%%/app/contexts/issues_list_context.rb
+%%WWWDIR%%/app/contexts/merge_requests_load_context.rb
+%%WWWDIR%%/app/contexts/notes/create_context.rb
+%%WWWDIR%%/app/contexts/notes/load_context.rb
+%%WWWDIR%%/app/contexts/projects/create_context.rb
+%%WWWDIR%%/app/contexts/projects/update_context.rb
+%%WWWDIR%%/app/contexts/search_context.rb
+%%WWWDIR%%/app/contexts/test_hook_context.rb
+%%WWWDIR%%/app/controllers/admin/application_controller.rb
+%%WWWDIR%%/app/controllers/admin/dashboard_controller.rb
+%%WWWDIR%%/app/controllers/admin/groups_controller.rb
+%%WWWDIR%%/app/controllers/admin/hooks_controller.rb
+%%WWWDIR%%/app/controllers/admin/logs_controller.rb
+%%WWWDIR%%/app/controllers/admin/projects/application_controller.rb
+%%WWWDIR%%/app/controllers/admin/projects/members_controller.rb
+%%WWWDIR%%/app/controllers/admin/projects_controller.rb
+%%WWWDIR%%/app/controllers/admin/resque_controller.rb
+%%WWWDIR%%/app/controllers/admin/teams/application_controller.rb
+%%WWWDIR%%/app/controllers/admin/teams/members_controller.rb
+%%WWWDIR%%/app/controllers/admin/teams/projects_controller.rb
+%%WWWDIR%%/app/controllers/admin/teams_controller.rb
+%%WWWDIR%%/app/controllers/admin/users_controller.rb
+%%WWWDIR%%/app/controllers/application_controller.rb
+%%WWWDIR%%/app/controllers/blame_controller.rb
+%%WWWDIR%%/app/controllers/blob_controller.rb
+%%WWWDIR%%/app/controllers/commit_controller.rb
+%%WWWDIR%%/app/controllers/commits_controller.rb
+%%WWWDIR%%/app/controllers/compare_controller.rb
+%%WWWDIR%%/app/controllers/dashboard_controller.rb
+%%WWWDIR%%/app/controllers/deploy_keys_controller.rb
+%%WWWDIR%%/app/controllers/errors_controller.rb
+%%WWWDIR%%/app/controllers/graph_controller.rb
+%%WWWDIR%%/app/controllers/groups_controller.rb
+%%WWWDIR%%/app/controllers/help_controller.rb
+%%WWWDIR%%/app/controllers/hooks_controller.rb
+%%WWWDIR%%/app/controllers/issues_controller.rb
+%%WWWDIR%%/app/controllers/keys_controller.rb
+%%WWWDIR%%/app/controllers/labels_controller.rb
+%%WWWDIR%%/app/controllers/merge_requests_controller.rb
+%%WWWDIR%%/app/controllers/milestones_controller.rb
+%%WWWDIR%%/app/controllers/notes_controller.rb
+%%WWWDIR%%/app/controllers/omniauth_callbacks_controller.rb
+%%WWWDIR%%/app/controllers/profiles_controller.rb
+%%WWWDIR%%/app/controllers/project_resource_controller.rb
+%%WWWDIR%%/app/controllers/projects/application_controller.rb
+%%WWWDIR%%/app/controllers/projects/teams_controller.rb
+%%WWWDIR%%/app/controllers/projects_controller.rb
+%%WWWDIR%%/app/controllers/protected_branches_controller.rb
+%%WWWDIR%%/app/controllers/public/projects_controller.rb
+%%WWWDIR%%/app/controllers/refs_controller.rb
+%%WWWDIR%%/app/controllers/registrations_controller.rb
+%%WWWDIR%%/app/controllers/repositories_controller.rb
+%%WWWDIR%%/app/controllers/search_controller.rb
+%%WWWDIR%%/app/controllers/services_controller.rb
+%%WWWDIR%%/app/controllers/snippets_controller.rb
+%%WWWDIR%%/app/controllers/team_members_controller.rb
+%%WWWDIR%%/app/controllers/teams/application_controller.rb
+%%WWWDIR%%/app/controllers/teams/members_controller.rb
+%%WWWDIR%%/app/controllers/teams/projects_controller.rb
+%%WWWDIR%%/app/controllers/teams_controller.rb
+%%WWWDIR%%/app/controllers/tree_controller.rb
+%%WWWDIR%%/app/controllers/users_controller.rb
+%%WWWDIR%%/app/controllers/wikis_controller.rb
+%%WWWDIR%%/app/decorators/application_decorator.rb
+%%WWWDIR%%/app/decorators/commit_decorator.rb
+%%WWWDIR%%/app/decorators/event_decorator.rb
+%%WWWDIR%%/app/decorators/tree_decorator.rb
+%%WWWDIR%%/app/decorators/user_decorator.rb
+%%WWWDIR%%/app/helpers/admin/teams/members_helper.rb
+%%WWWDIR%%/app/helpers/admin/teams/projects_helper.rb
+%%WWWDIR%%/app/helpers/application_helper.rb
+%%WWWDIR%%/app/helpers/commits_helper.rb
+%%WWWDIR%%/app/helpers/dashboard_helper.rb
+%%WWWDIR%%/app/helpers/events_helper.rb
+%%WWWDIR%%/app/helpers/gitlab_markdown_helper.rb
+%%WWWDIR%%/app/helpers/groups_helper.rb
+%%WWWDIR%%/app/helpers/issues_helper.rb
+%%WWWDIR%%/app/helpers/merge_requests_helper.rb
+%%WWWDIR%%/app/helpers/namespaces_helper.rb
+%%WWWDIR%%/app/helpers/notes_helper.rb
+%%WWWDIR%%/app/helpers/profile_helper.rb
+%%WWWDIR%%/app/helpers/projects_helper.rb
+%%WWWDIR%%/app/helpers/snippets_helper.rb
+%%WWWDIR%%/app/helpers/tab_helper.rb
+%%WWWDIR%%/app/helpers/tags_helper.rb
+%%WWWDIR%%/app/helpers/tree_helper.rb
+%%WWWDIR%%/app/helpers/user_teams_helper.rb
+%%WWWDIR%%/app/mailers/.gitkeep
+%%WWWDIR%%/app/mailers/notify.rb
+%%WWWDIR%%/app/models/.gitkeep
+%%WWWDIR%%/app/models/ability.rb
+%%WWWDIR%%/app/models/commit.rb
+%%WWWDIR%%/app/models/concerns/issuable.rb
+%%WWWDIR%%/app/models/event.rb
+%%WWWDIR%%/app/models/gitlab_ci_service.rb
+%%WWWDIR%%/app/models/group.rb
+%%WWWDIR%%/app/models/issue.rb
+%%WWWDIR%%/app/models/key.rb
+%%WWWDIR%%/app/models/merge_request.rb
+%%WWWDIR%%/app/models/milestone.rb
+%%WWWDIR%%/app/models/namespace.rb
+%%WWWDIR%%/app/models/note.rb
+%%WWWDIR%%/app/models/project.rb
+%%WWWDIR%%/app/models/project_hook.rb
+%%WWWDIR%%/app/models/project_team.rb
+%%WWWDIR%%/app/models/protected_branch.rb
+%%WWWDIR%%/app/models/repository.rb
+%%WWWDIR%%/app/models/service.rb
+%%WWWDIR%%/app/models/service_hook.rb
+%%WWWDIR%%/app/models/snippet.rb
+%%WWWDIR%%/app/models/system_hook.rb
+%%WWWDIR%%/app/models/tree.rb
+%%WWWDIR%%/app/models/user.rb
+%%WWWDIR%%/app/models/user_team.rb
+%%WWWDIR%%/app/models/user_team_project_relationship.rb
+%%WWWDIR%%/app/models/user_team_user_relationship.rb
+%%WWWDIR%%/app/models/users_project.rb
+%%WWWDIR%%/app/models/web_hook.rb
+%%WWWDIR%%/app/models/wiki.rb
+%%WWWDIR%%/app/observers/activity_observer.rb
+%%WWWDIR%%/app/observers/issue_observer.rb
+%%WWWDIR%%/app/observers/key_observer.rb
+%%WWWDIR%%/app/observers/merge_request_observer.rb
+%%WWWDIR%%/app/observers/note_observer.rb
+%%WWWDIR%%/app/observers/project_observer.rb
+%%WWWDIR%%/app/observers/system_hook_observer.rb
+%%WWWDIR%%/app/observers/user_observer.rb
+%%WWWDIR%%/app/observers/users_project_observer.rb
+%%WWWDIR%%/app/uploaders/attachment_uploader.rb
+%%WWWDIR%%/app/views/admin/dashboard/index.html.haml
+%%WWWDIR%%/app/views/admin/groups/edit.html.haml
+%%WWWDIR%%/app/views/admin/groups/index.html.haml
+%%WWWDIR%%/app/views/admin/groups/new.html.haml
+%%WWWDIR%%/app/views/admin/groups/show.html.haml
+%%WWWDIR%%/app/views/admin/hooks/_data_ex.html.erb
+%%WWWDIR%%/app/views/admin/hooks/index.html.haml
+%%WWWDIR%%/app/views/admin/logs/show.html.haml
+%%WWWDIR%%/app/views/admin/projects/_form.html.haml
+%%WWWDIR%%/app/views/admin/projects/edit.html.haml
+%%WWWDIR%%/app/views/admin/projects/index.html.haml
+%%WWWDIR%%/app/views/admin/projects/members/_form.html.haml
+%%WWWDIR%%/app/views/admin/projects/members/edit.html.haml
+%%WWWDIR%%/app/views/admin/projects/show.html.haml
+%%WWWDIR%%/app/views/admin/projects/team.html.haml
+%%WWWDIR%%/app/views/admin/resque/show.html.haml
+%%WWWDIR%%/app/views/admin/teams/edit.html.haml
+%%WWWDIR%%/app/views/admin/teams/index.html.haml
+%%WWWDIR%%/app/views/admin/teams/members/_form.html.haml
+%%WWWDIR%%/app/views/admin/teams/members/edit.html.haml
+%%WWWDIR%%/app/views/admin/teams/members/new.html.haml
+%%WWWDIR%%/app/views/admin/teams/new.html.haml
+%%WWWDIR%%/app/views/admin/teams/projects/_form.html.haml
+%%WWWDIR%%/app/views/admin/teams/projects/edit.html.haml
+%%WWWDIR%%/app/views/admin/teams/projects/new.html.haml
+%%WWWDIR%%/app/views/admin/teams/show.html.haml
+%%WWWDIR%%/app/views/admin/users/_form.html.haml
+%%WWWDIR%%/app/views/admin/users/edit.html.haml
+%%WWWDIR%%/app/views/admin/users/index.html.haml
+%%WWWDIR%%/app/views/admin/users/new.html.haml
+%%WWWDIR%%/app/views/admin/users/show.html.haml
+%%WWWDIR%%/app/views/blame/_head.html.haml
+%%WWWDIR%%/app/views/blame/show.html.haml
+%%WWWDIR%%/app/views/commit/huge_commit.html.haml
+%%WWWDIR%%/app/views/commit/show.html.haml
+%%WWWDIR%%/app/views/commits/_commit.html.haml
+%%WWWDIR%%/app/views/commits/_commit_box.html.haml
+%%WWWDIR%%/app/views/commits/_commits.html.haml
+%%WWWDIR%%/app/views/commits/_diff_head.html.haml
+%%WWWDIR%%/app/views/commits/_diffs.html.haml
+%%WWWDIR%%/app/views/commits/_head.html.haml
+%%WWWDIR%%/app/views/commits/_image.html.haml
+%%WWWDIR%%/app/views/commits/_text_file.html.haml
+%%WWWDIR%%/app/views/commits/show.atom.builder
+%%WWWDIR%%/app/views/commits/show.html.haml
+%%WWWDIR%%/app/views/commits/show.js.haml
+%%WWWDIR%%/app/views/compare/_form.html.haml
+%%WWWDIR%%/app/views/compare/index.html.haml
+%%WWWDIR%%/app/views/compare/show.html.haml
+%%WWWDIR%%/app/views/dashboard/_activities.html.haml
+%%WWWDIR%%/app/views/dashboard/_filter.html.haml
+%%WWWDIR%%/app/views/dashboard/_groups.html.haml
+%%WWWDIR%%/app/views/dashboard/_projects.html.haml
+%%WWWDIR%%/app/views/dashboard/_sidebar.html.haml
+%%WWWDIR%%/app/views/dashboard/_teams.html.haml
+%%WWWDIR%%/app/views/dashboard/_zero_authorized_projects.html.haml
+%%WWWDIR%%/app/views/dashboard/issues.atom.builder
+%%WWWDIR%%/app/views/dashboard/issues.html.haml
+%%WWWDIR%%/app/views/dashboard/merge_requests.html.haml
+%%WWWDIR%%/app/views/dashboard/projects.html.haml
+%%WWWDIR%%/app/views/dashboard/show.atom.builder
+%%WWWDIR%%/app/views/dashboard/show.html.haml
+%%WWWDIR%%/app/views/dashboard/show.js.haml
+%%WWWDIR%%/app/views/deploy_keys/_form.html.haml
+%%WWWDIR%%/app/views/deploy_keys/_show.html.haml
+%%WWWDIR%%/app/views/deploy_keys/index.html.haml
+%%WWWDIR%%/app/views/deploy_keys/new.html.haml
+%%WWWDIR%%/app/views/deploy_keys/show.html.haml
+%%WWWDIR%%/app/views/devise/confirmations/new.html.erb
+%%WWWDIR%%/app/views/devise/mailer/confirmation_instructions.html.erb
+%%WWWDIR%%/app/views/devise/mailer/reset_password_instructions.html.erb
+%%WWWDIR%%/app/views/devise/mailer/unlock_instructions.html.erb
+%%WWWDIR%%/app/views/devise/passwords/edit.html.haml
+%%WWWDIR%%/app/views/devise/passwords/new.html.erb
+%%WWWDIR%%/app/views/devise/registrations/edit.html.erb
+%%WWWDIR%%/app/views/devise/registrations/new.html.haml
+%%WWWDIR%%/app/views/devise/sessions/_new_ldap.html.haml
+%%WWWDIR%%/app/views/devise/sessions/new.html.haml
+%%WWWDIR%%/app/views/devise/shared/_links.erb
+%%WWWDIR%%/app/views/devise/unlocks/new.html.erb
+%%WWWDIR%%/app/views/errors/access_denied.html.haml
+%%WWWDIR%%/app/views/errors/encoding.html.haml
+%%WWWDIR%%/app/views/errors/git_not_found.html.haml
+%%WWWDIR%%/app/views/errors/gitolite.html.haml
+%%WWWDIR%%/app/views/errors/not_found.html.haml
+%%WWWDIR%%/app/views/events/_commit.html.haml
+%%WWWDIR%%/app/views/events/_event.html.haml
+%%WWWDIR%%/app/views/events/_event_issue.atom.haml
+%%WWWDIR%%/app/views/events/_event_last_push.html.haml
+%%WWWDIR%%/app/views/events/_event_push.atom.haml
+%%WWWDIR%%/app/views/events/event/_common.html.haml
+%%WWWDIR%%/app/views/events/event/_note.html.haml
+%%WWWDIR%%/app/views/events/event/_push.html.haml
+%%WWWDIR%%/app/views/graph/show.html.haml
+%%WWWDIR%%/app/views/groups/_filter.html.haml
+%%WWWDIR%%/app/views/groups/_new_group_member.html.haml
+%%WWWDIR%%/app/views/groups/_new_member.html.haml
+%%WWWDIR%%/app/views/groups/_people_filter.html.haml
+%%WWWDIR%%/app/views/groups/_projects.html.haml
+%%WWWDIR%%/app/views/groups/edit.html.haml
+%%WWWDIR%%/app/views/groups/issues.atom.builder
+%%WWWDIR%%/app/views/groups/issues.html.haml
+%%WWWDIR%%/app/views/groups/merge_requests.html.haml
+%%WWWDIR%%/app/views/groups/new.html.haml
+%%WWWDIR%%/app/views/groups/people.html.haml
+%%WWWDIR%%/app/views/groups/search.html.haml
+%%WWWDIR%%/app/views/groups/show.atom.builder
+%%WWWDIR%%/app/views/groups/show.html.haml
+%%WWWDIR%%/app/views/groups/show.js.haml
+%%WWWDIR%%/app/views/help/_layout.html.haml
+%%WWWDIR%%/app/views/help/api.html.haml
+%%WWWDIR%%/app/views/help/index.html.haml
+%%WWWDIR%%/app/views/help/markdown.html.haml
+%%WWWDIR%%/app/views/help/permissions.html.haml
+%%WWWDIR%%/app/views/help/public_access.html.haml
+%%WWWDIR%%/app/views/help/raketasks.html.haml
+%%WWWDIR%%/app/views/help/ssh.html.haml
+%%WWWDIR%%/app/views/help/system_hooks.html.haml
+%%WWWDIR%%/app/views/help/web_hooks.html.haml
+%%WWWDIR%%/app/views/help/workflow.html.haml
+%%WWWDIR%%/app/views/hooks/_data_ex.html.erb
+%%WWWDIR%%/app/views/hooks/index.html.haml
+%%WWWDIR%%/app/views/issues/_filter.html.haml
+%%WWWDIR%%/app/views/issues/_form.html.haml
+%%WWWDIR%%/app/views/issues/_head.html.haml
+%%WWWDIR%%/app/views/issues/_issues.html.haml
+%%WWWDIR%%/app/views/issues/_show.html.haml
+%%WWWDIR%%/app/views/issues/edit.html.haml
+%%WWWDIR%%/app/views/issues/index.atom.builder
+%%WWWDIR%%/app/views/issues/index.html.haml
+%%WWWDIR%%/app/views/issues/index.js.haml
+%%WWWDIR%%/app/views/issues/new.html.haml
+%%WWWDIR%%/app/views/issues/show.html.haml
+%%WWWDIR%%/app/views/issues/update.js.haml
+%%WWWDIR%%/app/views/kaminari/admin/_first_page.html.haml
+%%WWWDIR%%/app/views/kaminari/admin/_gap.html.haml
+%%WWWDIR%%/app/views/kaminari/admin/_last_page.html.haml
+%%WWWDIR%%/app/views/kaminari/admin/_next_page.html.haml
+%%WWWDIR%%/app/views/kaminari/admin/_page.html.haml
+%%WWWDIR%%/app/views/kaminari/admin/_paginator.html.haml
+%%WWWDIR%%/app/views/kaminari/admin/_prev_page.html.haml
+%%WWWDIR%%/app/views/kaminari/gitlab/_first_page.html.haml
+%%WWWDIR%%/app/views/kaminari/gitlab/_gap.html.haml
+%%WWWDIR%%/app/views/kaminari/gitlab/_last_page.html.haml
+%%WWWDIR%%/app/views/kaminari/gitlab/_next_page.html.haml
+%%WWWDIR%%/app/views/kaminari/gitlab/_page.html.haml
+%%WWWDIR%%/app/views/kaminari/gitlab/_paginator.html.haml
+%%WWWDIR%%/app/views/kaminari/gitlab/_prev_page.html.haml
+%%WWWDIR%%/app/views/keys/_form.html.haml
+%%WWWDIR%%/app/views/keys/_show.html.haml
+%%WWWDIR%%/app/views/keys/edit.html.haml
+%%WWWDIR%%/app/views/keys/index.html.haml
+%%WWWDIR%%/app/views/keys/new.html.haml
+%%WWWDIR%%/app/views/keys/show.html.haml
+%%WWWDIR%%/app/views/labels/_label.html.haml
+%%WWWDIR%%/app/views/labels/index.html.haml
+%%WWWDIR%%/app/views/layouts/_flash.html.haml
+%%WWWDIR%%/app/views/layouts/_head.html.haml
+%%WWWDIR%%/app/views/layouts/_head_panel.html.haml
+%%WWWDIR%%/app/views/layouts/_init_auto_complete.html.haml
+%%WWWDIR%%/app/views/layouts/_page_title.html.haml
+%%WWWDIR%%/app/views/layouts/_search.html.haml
+%%WWWDIR%%/app/views/layouts/admin.html.haml
+%%WWWDIR%%/app/views/layouts/application.html.haml
+%%WWWDIR%%/app/views/layouts/devise.html.haml
+%%WWWDIR%%/app/views/layouts/errors.html.haml
+%%WWWDIR%%/app/views/layouts/group.html.haml
+%%WWWDIR%%/app/views/layouts/notify.html.haml
+%%WWWDIR%%/app/views/layouts/profile.html.haml
+%%WWWDIR%%/app/views/layouts/project_resource.html.haml
+%%WWWDIR%%/app/views/layouts/public.html.haml
+%%WWWDIR%%/app/views/layouts/user_team.html.haml
+%%WWWDIR%%/app/views/merge_requests/_filter.html.haml
+%%WWWDIR%%/app/views/merge_requests/_form.html.haml
+%%WWWDIR%%/app/views/merge_requests/_head.html.haml
+%%WWWDIR%%/app/views/merge_requests/_merge_request.html.haml
+%%WWWDIR%%/app/views/merge_requests/_show.html.haml
+%%WWWDIR%%/app/views/merge_requests/automerge.js.haml
+%%WWWDIR%%/app/views/merge_requests/branch_from.js.haml
+%%WWWDIR%%/app/views/merge_requests/branch_to.js.haml
+%%WWWDIR%%/app/views/merge_requests/commits.js.haml
+%%WWWDIR%%/app/views/merge_requests/diffs.html.haml
+%%WWWDIR%%/app/views/merge_requests/diffs.js.haml
+%%WWWDIR%%/app/views/merge_requests/edit.html.haml
+%%WWWDIR%%/app/views/merge_requests/index.html.haml
+%%WWWDIR%%/app/views/merge_requests/new.html.haml
+%%WWWDIR%%/app/views/merge_requests/show.html.haml
+%%WWWDIR%%/app/views/merge_requests/show.js.haml
+%%WWWDIR%%/app/views/merge_requests/show/_commits.html.haml
+%%WWWDIR%%/app/views/merge_requests/show/_diffs.html.haml
+%%WWWDIR%%/app/views/merge_requests/show/_how_to_merge.html.haml
+%%WWWDIR%%/app/views/merge_requests/show/_mr_accept.html.haml
+%%WWWDIR%%/app/views/merge_requests/show/_mr_box.html.haml
+%%WWWDIR%%/app/views/merge_requests/show/_mr_ci.html.haml
+%%WWWDIR%%/app/views/merge_requests/show/_mr_title.html.haml
+%%WWWDIR%%/app/views/milestones/_form.html.haml
+%%WWWDIR%%/app/views/milestones/_milestone.html.haml
+%%WWWDIR%%/app/views/milestones/edit.html.haml
+%%WWWDIR%%/app/views/milestones/index.html.haml
+%%WWWDIR%%/app/views/milestones/new.html.haml
+%%WWWDIR%%/app/views/milestones/show.html.haml
+%%WWWDIR%%/app/views/notes/_diff_note_link.html.haml
+%%WWWDIR%%/app/views/notes/_diff_notes_with_reply.html.haml
+%%WWWDIR%%/app/views/notes/_discussion.html.haml
+%%WWWDIR%%/app/views/notes/_discussion_diff.html.haml
+%%WWWDIR%%/app/views/notes/_discussion_reply_button.html.haml
+%%WWWDIR%%/app/views/notes/_form.html.haml
+%%WWWDIR%%/app/views/notes/_form_errors.html.haml
+%%WWWDIR%%/app/views/notes/_note.html.haml
+%%WWWDIR%%/app/views/notes/_notes.html.haml
+%%WWWDIR%%/app/views/notes/_notes_with_form.html.haml
+%%WWWDIR%%/app/views/notes/_reversed_notes_with_form.html.haml
+%%WWWDIR%%/app/views/notes/create.js.haml
+%%WWWDIR%%/app/views/notes/index.js.haml
+%%WWWDIR%%/app/views/notify/issue_status_changed_email.html.haml
+%%WWWDIR%%/app/views/notify/new_issue_email.html.haml
+%%WWWDIR%%/app/views/notify/new_merge_request_email.html.haml
+%%WWWDIR%%/app/views/notify/new_user_email.html.haml
+%%WWWDIR%%/app/views/notify/note_commit_email.html.haml
+%%WWWDIR%%/app/views/notify/note_issue_email.html.haml
+%%WWWDIR%%/app/views/notify/note_merge_request_email.html.haml
+%%WWWDIR%%/app/views/notify/note_wall_email.html.haml
+%%WWWDIR%%/app/views/notify/project_access_granted_email.html.haml
+%%WWWDIR%%/app/views/notify/project_was_moved_email.html.haml
+%%WWWDIR%%/app/views/notify/reassigned_issue_email.html.haml
+%%WWWDIR%%/app/views/notify/reassigned_merge_request_email.html.haml
+%%WWWDIR%%/app/views/profiles/account.html.haml
+%%WWWDIR%%/app/views/profiles/design.html.haml
+%%WWWDIR%%/app/views/profiles/history.html.haml
+%%WWWDIR%%/app/views/profiles/show.html.haml
+%%WWWDIR%%/app/views/profiles/update.js.erb
+%%WWWDIR%%/app/views/profiles/update_username.js.haml
+%%WWWDIR%%/app/views/projects/_clone_panel.html.haml
+%%WWWDIR%%/app/views/projects/_form.html.haml
+%%WWWDIR%%/app/views/projects/_new_form.html.haml
+%%WWWDIR%%/app/views/projects/_project_head.html.haml
+%%WWWDIR%%/app/views/projects/create.js.haml
+%%WWWDIR%%/app/views/projects/edit.html.haml
+%%WWWDIR%%/app/views/projects/empty.html.haml
+%%WWWDIR%%/app/views/projects/files.html.haml
+%%WWWDIR%%/app/views/projects/new.html.haml
+%%WWWDIR%%/app/views/projects/show.html.haml
+%%WWWDIR%%/app/views/projects/show.js.haml
+%%WWWDIR%%/app/views/projects/teams/available.html.haml
+%%WWWDIR%%/app/views/projects/tree.js.haml
+%%WWWDIR%%/app/views/projects/update.js.haml
+%%WWWDIR%%/app/views/projects/update_failed.js.haml
+%%WWWDIR%%/app/views/projects/wall.html.haml
+%%WWWDIR%%/app/views/protected_branches/index.html.haml
+%%WWWDIR%%/app/views/public/projects/index.html.haml
+%%WWWDIR%%/app/views/refs/logs_tree.js.haml
+%%WWWDIR%%/app/views/repositories/_branch.html.haml
+%%WWWDIR%%/app/views/repositories/_feed.html.haml
+%%WWWDIR%%/app/views/repositories/_filter.html.haml
+%%WWWDIR%%/app/views/repositories/_head.html.haml
+%%WWWDIR%%/app/views/repositories/branches.html.haml
+%%WWWDIR%%/app/views/repositories/show.html.haml
+%%WWWDIR%%/app/views/repositories/stats.html.haml
+%%WWWDIR%%/app/views/repositories/tags.html.haml
+%%WWWDIR%%/app/views/search/_filter.html.haml
+%%WWWDIR%%/app/views/search/_result.html.haml
+%%WWWDIR%%/app/views/search/show.html.haml
+%%WWWDIR%%/app/views/services/_gitlab_ci.html.haml
+%%WWWDIR%%/app/views/services/edit.html.haml
+%%WWWDIR%%/app/views/services/index.html.haml
+%%WWWDIR%%/app/views/shared/_clone_panel.html.haml
+%%WWWDIR%%/app/views/shared/_merge_requests.html.haml
+%%WWWDIR%%/app/views/shared/_no_ssh.html.haml
+%%WWWDIR%%/app/views/shared/_not_in_team.html.haml
+%%WWWDIR%%/app/views/shared/_ref_switcher.html.haml
+%%WWWDIR%%/app/views/snippets/_blob.html.haml
+%%WWWDIR%%/app/views/snippets/_form.html.haml
+%%WWWDIR%%/app/views/snippets/_snippet.html.haml
+%%WWWDIR%%/app/views/snippets/edit.html.haml
+%%WWWDIR%%/app/views/snippets/index.html.haml
+%%WWWDIR%%/app/views/snippets/new.html.haml
+%%WWWDIR%%/app/views/snippets/show.html.haml
+%%WWWDIR%%/app/views/team_members/_form.html.haml
+%%WWWDIR%%/app/views/team_members/_show.html.haml
+%%WWWDIR%%/app/views/team_members/_show_team.html.haml
+%%WWWDIR%%/app/views/team_members/_team.html.haml
+%%WWWDIR%%/app/views/team_members/_teams.html.haml
+%%WWWDIR%%/app/views/team_members/create.js.haml
+%%WWWDIR%%/app/views/team_members/import.html.haml
+%%WWWDIR%%/app/views/team_members/index.html.haml
+%%WWWDIR%%/app/views/team_members/new.html.haml
+%%WWWDIR%%/app/views/team_members/show.html.haml
+%%WWWDIR%%/app/views/team_members/update.js.haml
+%%WWWDIR%%/app/views/teams/_filter.html.haml
+%%WWWDIR%%/app/views/teams/_projects.html.haml
+%%WWWDIR%%/app/views/teams/edit.html.haml
+%%WWWDIR%%/app/views/teams/issues.html.haml
+%%WWWDIR%%/app/views/teams/members/_form.html.haml
+%%WWWDIR%%/app/views/teams/members/_show.html.haml
+%%WWWDIR%%/app/views/teams/members/_team.html.haml
+%%WWWDIR%%/app/views/teams/members/edit.html.haml
+%%WWWDIR%%/app/views/teams/members/index.html.haml
+%%WWWDIR%%/app/views/teams/members/new.html.haml
+%%WWWDIR%%/app/views/teams/members/show.html.haml
+%%WWWDIR%%/app/views/teams/merge_requests.html.haml
+%%WWWDIR%%/app/views/teams/new.html.haml
+%%WWWDIR%%/app/views/teams/projects/_form.html.haml
+%%WWWDIR%%/app/views/teams/projects/edit.html.haml
+%%WWWDIR%%/app/views/teams/projects/index.html.haml
+%%WWWDIR%%/app/views/teams/projects/new.html.haml
+%%WWWDIR%%/app/views/teams/show.html.haml
+%%WWWDIR%%/app/views/teams/show.js.haml
+%%WWWDIR%%/app/views/tree/_blob.html.haml
+%%WWWDIR%%/app/views/tree/_blob_actions.html.haml
+%%WWWDIR%%/app/views/tree/_head.html.haml
+%%WWWDIR%%/app/views/tree/_readme.html.haml
+%%WWWDIR%%/app/views/tree/_submodule_item.html.haml
+%%WWWDIR%%/app/views/tree/_tree.html.haml
+%%WWWDIR%%/app/views/tree/_tree_commit_column.html.haml
+%%WWWDIR%%/app/views/tree/_tree_item.html.haml
+%%WWWDIR%%/app/views/tree/blob/_download.html.haml
+%%WWWDIR%%/app/views/tree/blob/_image.html.haml
+%%WWWDIR%%/app/views/tree/blob/_text.html.haml
+%%WWWDIR%%/app/views/tree/edit.html.haml
+%%WWWDIR%%/app/views/tree/show.html.haml
+%%WWWDIR%%/app/views/tree/show.js.haml
+%%WWWDIR%%/app/views/users/_profile.html.haml
+%%WWWDIR%%/app/views/users/_projects.html.haml
+%%WWWDIR%%/app/views/users/show.html.haml
+%%WWWDIR%%/app/views/votes/_votes_block.html.haml
+%%WWWDIR%%/app/views/votes/_votes_inline.html.haml
+%%WWWDIR%%/app/views/wikis/_form.html.haml
+%%WWWDIR%%/app/views/wikis/edit.html.haml
+%%WWWDIR%%/app/views/wikis/empty.html.haml
+%%WWWDIR%%/app/views/wikis/history.html.haml
+%%WWWDIR%%/app/views/wikis/pages.html.haml
+%%WWWDIR%%/app/views/wikis/show.html.haml
+%%WWWDIR%%/app/workers/gitolite_worker.rb
+%%WWWDIR%%/app/workers/post_receive.rb
+%%WWWDIR%%/app/workers/project_web_hook_worker.rb
+%%WWWDIR%%/app/workers/system_hook_worker.rb
+%%WWWDIR%%/config.ru
+%%WWWDIR%%/config/application.rb
+%%WWWDIR%%/config/boot.rb
+%%WWWDIR%%/config/database.yml
+%%WWWDIR%%/config/database.yml.bak
+%%WWWDIR%%/config/database.yml.mysql
+%%WWWDIR%%/config/database.yml.postgresql
+%%WWWDIR%%/config/environment.rb
+%%WWWDIR%%/config/environments/development.rb
+%%WWWDIR%%/config/environments/production.rb
+%%WWWDIR%%/config/environments/test.rb
+%%WWWDIR%%/config/gitlab.yml
+%%WWWDIR%%/config/gitlab.yml.bak
+%%WWWDIR%%/config/gitlab.yml.example
+%%WWWDIR%%/config/initializers/1_settings.rb
+%%WWWDIR%%/config/initializers/2_app.rb
+%%WWWDIR%%/config/initializers/3_grit_ext.rb
+%%WWWDIR%%/config/initializers/4_sidekiq.rb
+%%WWWDIR%%/config/initializers/5_backend.rb
+%%WWWDIR%%/config/initializers/backtrace_silencers.rb
+%%WWWDIR%%/config/initializers/carrierwave.rb
+%%WWWDIR%%/config/initializers/connection_fix.rb
+%%WWWDIR%%/config/initializers/devise.rb
+%%WWWDIR%%/config/initializers/gemoji.rb
+%%WWWDIR%%/config/initializers/inflections.rb
+%%WWWDIR%%/config/initializers/kaminari_config.rb
+%%WWWDIR%%/config/initializers/mime_types.rb
+%%WWWDIR%%/config/initializers/postgresql_limit_fix.rb
+%%WWWDIR%%/config/initializers/secret_token.rb
+%%WWWDIR%%/config/initializers/session_store.rb
+%%WWWDIR%%/config/initializers/wrap_parameters.rb
+%%WWWDIR%%/config/locales/devise.en.yml
+%%WWWDIR%%/config/locales/en.yml
+%%WWWDIR%%/config/resque.yml.example
+%%WWWDIR%%/config/routes.rb
+%%WWWDIR%%/config/unicorn.rb
+%%WWWDIR%%/config/unicorn.rb.bak
+%%WWWDIR%%/config/unicorn.rb.example
+%%WWWDIR%%/db/fixtures/development/001_admin.rb
+%%WWWDIR%%/db/fixtures/development/002_project.rb
+%%WWWDIR%%/db/fixtures/development/003_users.rb
+%%WWWDIR%%/db/fixtures/development/004_teams.rb
+%%WWWDIR%%/db/fixtures/development/005_milestones.rb
+%%WWWDIR%%/db/fixtures/development/006_wall.rb
+%%WWWDIR%%/db/fixtures/development/007_issues.rb
+%%WWWDIR%%/db/fixtures/development/008_merge_requests.rb
+%%WWWDIR%%/db/fixtures/development/009_source_code.rb
+%%WWWDIR%%/db/fixtures/development/010_keys.rb
+%%WWWDIR%%/db/fixtures/production/001_admin.rb
+%%WWWDIR%%/db/fixtures/test/001_repo.rb
+%%WWWDIR%%/db/migrate/20110913200833_devise_create_users.rb
+%%WWWDIR%%/db/migrate/20110913204141_create_projects.rb
+%%WWWDIR%%/db/migrate/20110914221600_create_users_projects.rb
+%%WWWDIR%%/db/migrate/20110915205627_add_private_flag_to_project.rb
+%%WWWDIR%%/db/migrate/20110915213352_create_keys.rb
+%%WWWDIR%%/db/migrate/20110916123731_add_name_to_user.rb
+%%WWWDIR%%/db/migrate/20110916162511_add_key_title_to_key.rb
+%%WWWDIR%%/db/migrate/20110917212932_add_identifier_to_key.rb
+%%WWWDIR%%/db/migrate/20110921192501_create_issues.rb
+%%WWWDIR%%/db/migrate/20110922110156_add_code_to_project.rb
+%%WWWDIR%%/db/migrate/20110923211333_add_status_to_issue.rb
+%%WWWDIR%%/db/migrate/20110924214549_create_rails_admin_histories_table.rb
+%%WWWDIR%%/db/migrate/20110924215658_add_admin_field_to_user.rb
+%%WWWDIR%%/db/migrate/20110926082616_remove_admin.rb
+%%WWWDIR%%/db/migrate/20110927130352_create_notes.rb
+%%WWWDIR%%/db/migrate/20110928140106_add_project_id_for_note.rb
+%%WWWDIR%%/db/migrate/20110928142747_change_noteable_id_for_note.rb
+%%WWWDIR%%/db/migrate/20110928161328_add_attachment_to_note.rb
+%%WWWDIR%%/db/migrate/20111005193700_add_allow_repo_creation_for_user.rb
+%%WWWDIR%%/db/migrate/20111009101738_add_ownerto_project.rb
+%%WWWDIR%%/db/migrate/20111009110913_add_projects_limit_to_user.rb
+%%WWWDIR%%/db/migrate/20111009111204_remove_allow_create_repo_from_user.rb
+%%WWWDIR%%/db/migrate/20111015154310_add_position_to_issues.rb
+%%WWWDIR%%/db/migrate/20111016183422_create_snippets.rb
+%%WWWDIR%%/db/migrate/20111016193417_add_content_type_to_snippets.rb
+%%WWWDIR%%/db/migrate/20111016195506_add_file_name_to_snippets.rb
+%%WWWDIR%%/db/migrate/20111019212429_add_social_to_user.rb
+%%WWWDIR%%/db/migrate/20111021101550_change_social_fields_in_users.rb
+%%WWWDIR%%/db/migrate/20111025134235_add_high_label_to_issue.rb
+%%WWWDIR%%/db/migrate/20111027051828_add_expires_at_to_snippets.rb
+%%WWWDIR%%/db/migrate/20111027142641_change_note_note_to_text.rb
+%%WWWDIR%%/db/migrate/20111027152724_issue_conten_to_note.rb
+%%WWWDIR%%/db/migrate/20111101222453_acts_as_taggable_on_migration.rb
+%%WWWDIR%%/db/migrate/20111111093150_remove_content_from_issues.rb
+%%WWWDIR%%/db/migrate/20111115063954_add_authentication_token_to_users.rb
+%%WWWDIR%%/db/migrate/20111124115339_add_extra_field_to_issue.rb
+%%WWWDIR%%/db/migrate/20111127155345_create_merge_requests.rb
+%%WWWDIR%%/db/migrate/20111206213842_add_advanced_rights_to_team_member.rb
+%%WWWDIR%%/db/migrate/20111206222316_migrate_to_new_rights.rb
+%%WWWDIR%%/db/migrate/20111207211728_add_default_branch_to_project.rb
+%%WWWDIR%%/db/migrate/20111214091851_create_web_hooks.rb
+%%WWWDIR%%/db/migrate/20111220190817_add_coloscheme_option_to_user.rb
+%%WWWDIR%%/db/migrate/20111231111825_add_project_id_to_key.rb
+%%WWWDIR%%/db/migrate/20120110180749_add_line_number_to_note.rb
+%%WWWDIR%%/db/migrate/20120119202326_add_indexes.rb
+%%WWWDIR%%/db/migrate/20120121122616_fix_noteable_id.rb
+%%WWWDIR%%/db/migrate/20120206170141_add_modularity_fields_to_project.rb
+%%WWWDIR%%/db/migrate/20120215182305_create_protected_branches.rb
+%%WWWDIR%%/db/migrate/20120216085842_move_to_roles_permissions.rb
+%%WWWDIR%%/db/migrate/20120216215008_create_wikis.rb
+%%WWWDIR%%/db/migrate/20120219130957_add_slug_to_wiki.rb
+%%WWWDIR%%/db/migrate/20120219140810_add_wiki_enabled_to_project.rb
+%%WWWDIR%%/db/migrate/20120219193300_add_user_to_wiki.rb
+%%WWWDIR%%/db/migrate/20120228130210_create_events.rb
+%%WWWDIR%%/db/migrate/20120228134252_add_action_to_event.rb
+%%WWWDIR%%/db/migrate/20120301185805_add_theme_to_user.rb
+%%WWWDIR%%/db/migrate/20120307095918_add_author_id_to_event.rb
+%%WWWDIR%%/db/migrate/20120315111711_add_commits_diff_store_to_merge_request.rb
+%%WWWDIR%%/db/migrate/20120315132931_add_merged_to_merge_request.rb
+%%WWWDIR%%/db/migrate/20120317095543_add_description_to_issues.rb
+%%WWWDIR%%/db/migrate/20120323221339_add_bio_field_to_user.rb
+%%WWWDIR%%/db/migrate/20120329170745_add_automerge_to_merge_request.rb
+%%WWWDIR%%/db/migrate/20120405211750_increase_mr_text_column_size.rb
+%%WWWDIR%%/db/migrate/20120408180246_create_milestones.rb
+%%WWWDIR%%/db/migrate/20120408181910_add_milestone_id_to_issue.rb
+%%WWWDIR%%/db/migrate/20120413135904_add_blocked_field_to_user.rb
+%%WWWDIR%%/db/migrate/20120627145613_remove_critical_from_issue.rb
+%%WWWDIR%%/db/migrate/20120706065612_add_lockable_to_users.rb
+%%WWWDIR%%/db/migrate/20120712080407_add_type_to_web_hook.rb
+%%WWWDIR%%/db/migrate/20120729131232_add_extern_auth_provider_to_users.rb
+%%WWWDIR%%/db/migrate/20120905043334_set_default_branch_default_to_nil.rb
+%%WWWDIR%%/db/migrate/20121002150926_create_groups.rb
+%%WWWDIR%%/db/migrate/20121002151033_add_group_id_to_project.rb
+%%WWWDIR%%/db/migrate/20121009205010_postgres_create_integer_cast.rb
+%%WWWDIR%%/db/migrate/20121026114600_add_milestone_id_to_merge_requests.rb
+%%WWWDIR%%/db/migrate/20121119170638_create_services.rb
+%%WWWDIR%%/db/migrate/20121120051432_add_service_id_to_web_hook.rb
+%%WWWDIR%%/db/migrate/20121120103700_add_active_to_service.rb
+%%WWWDIR%%/db/migrate/20121120113838_add_project_url_to_service.rb
+%%WWWDIR%%/db/migrate/20121122145155_convert_group_to_namespace.rb
+%%WWWDIR%%/db/migrate/20121122150932_add_namespace_id_to_project.rb
+%%WWWDIR%%/db/migrate/20121123104937_add_username_to_user.rb
+%%WWWDIR%%/db/migrate/20121123164910_rename_code_to_path.rb
+%%WWWDIR%%/db/migrate/20121203154450_add_events_indices.rb
+%%WWWDIR%%/db/migrate/20121203160507_more_indices.rb
+%%WWWDIR%%/db/migrate/20121205201726_add_more_indexes.rb
+%%WWWDIR%%/db/migrate/20121218164840_move_noteable_commit_to_own_field.rb
+%%WWWDIR%%/db/migrate/20121219095402_indices_for_notes.rb
+%%WWWDIR%%/db/migrate/20121219183753_create_user_teams.rb
+%%WWWDIR%%/db/migrate/20121220064104_create_user_team_project_relationships.rb
+%%WWWDIR%%/db/migrate/20121220064453_create_user_team_user_relationships.rb
+%%WWWDIR%%/db/migrate/20130102143055_rename_owner_to_creator_for_project.rb
+%%WWWDIR%%/db/migrate/20130110172407_add_public_to_project.rb
+%%WWWDIR%%/db/migrate/20130125090214_add_user_permissions.rb
+%%WWWDIR%%/db/migrate/20130131070232_remove_private_flag_from_project.rb
+%%WWWDIR%%/db/schema.rb
+%%WWWDIR%%/db/seeds.rb
+%%WWWDIR%%/distrib/apache.example
+%%WWWDIR%%/distrib/gitlab_install.sh
+%%WWWDIR%%/distrib/mysql_setup.sql
+%%WWWDIR%%/distrib/nginx.example
+%%WWWDIR%%/doc/api/README.md
+%%WWWDIR%%/doc/api/groups.md
+%%WWWDIR%%/doc/api/issues.md
+%%WWWDIR%%/doc/api/merge_requests.md
+%%WWWDIR%%/doc/api/milestones.md
+%%WWWDIR%%/doc/api/notes.md
+%%WWWDIR%%/doc/api/projects.md
+%%WWWDIR%%/doc/api/repositories.md
+%%WWWDIR%%/doc/api/session.md
+%%WWWDIR%%/doc/api/snippets.md
+%%WWWDIR%%/doc/api/users.md
+%%WWWDIR%%/doc/code/apple-touch-icon.png
+%%WWWDIR%%/doc/code/classes/Ability.html
+%%WWWDIR%%/doc/code/classes/Account.html
+%%WWWDIR%%/doc/code/classes/ActiveRecord.html
+%%WWWDIR%%/doc/code/classes/ActiveRecord/ConnectionAdapters.html
+%%WWWDIR%%/doc/code/classes/ActiveRecord/ConnectionAdapters/Mysql2Adapter.html
+%%WWWDIR%%/doc/code/classes/ActiveRecord/ConnectionAdapters/PostgreSQLAdapter.html
+%%WWWDIR%%/doc/code/classes/ActiveRecord/ConnectionAdapters/PostgreSQLAdapter/TableDefinition.html
+%%WWWDIR%%/doc/code/classes/ActivityObserver.html
+%%WWWDIR%%/doc/code/classes/Admin.html
+%%WWWDIR%%/doc/code/classes/Admin/DashboardController.html
+%%WWWDIR%%/doc/code/classes/Admin/GroupsController.html
+%%WWWDIR%%/doc/code/classes/Admin/HooksController.html
+%%WWWDIR%%/doc/code/classes/Admin/LogsController.html
+%%WWWDIR%%/doc/code/classes/Admin/ProjectsController.html
+%%WWWDIR%%/doc/code/classes/Admin/ResqueController.html
+%%WWWDIR%%/doc/code/classes/Admin/TeamMembersController.html
+%%WWWDIR%%/doc/code/classes/Admin/UsersController.html
+%%WWWDIR%%/doc/code/classes/AdminController.html
+%%WWWDIR%%/doc/code/classes/ApplicationController.html
+%%WWWDIR%%/doc/code/classes/ApplicationDecorator.html
+%%WWWDIR%%/doc/code/classes/ApplicationHelper.html
+%%WWWDIR%%/doc/code/classes/AttachmentUploader.html
+%%WWWDIR%%/doc/code/classes/Authority.html
+%%WWWDIR%%/doc/code/classes/BaseContext.html
+%%WWWDIR%%/doc/code/classes/BlameController.html
+%%WWWDIR%%/doc/code/classes/BlobController.html
+%%WWWDIR%%/doc/code/classes/Commit.html
+%%WWWDIR%%/doc/code/classes/CommitController.html
+%%WWWDIR%%/doc/code/classes/CommitDecorator.html
+%%WWWDIR%%/doc/code/classes/CommitLoadContext.html
+%%WWWDIR%%/doc/code/classes/CommitsController.html
+%%WWWDIR%%/doc/code/classes/CommitsHelper.html
+%%WWWDIR%%/doc/code/classes/CompareController.html
+%%WWWDIR%%/doc/code/classes/DashboardController.html
+%%WWWDIR%%/doc/code/classes/DashboardHelper.html
+%%WWWDIR%%/doc/code/classes/DeployKeysController.html
+%%WWWDIR%%/doc/code/classes/ErrorsController.html
+%%WWWDIR%%/doc/code/classes/Event.html
+%%WWWDIR%%/doc/code/classes/EventDecorator.html
+%%WWWDIR%%/doc/code/classes/EventFilter.html
+%%WWWDIR%%/doc/code/classes/EventsHelper.html
+%%WWWDIR%%/doc/code/classes/ExtractsPath.html
+%%WWWDIR%%/doc/code/classes/ExtractsPath/InvalidPathError.html
+%%WWWDIR%%/doc/code/classes/FileSizeValidator.html
+%%WWWDIR%%/doc/code/classes/FileSizeValidator/Helper.html
+%%WWWDIR%%/doc/code/classes/GitHost.html
+%%WWWDIR%%/doc/code/classes/Gitlab.html
+%%WWWDIR%%/doc/code/classes/Gitlab/API.html
+%%WWWDIR%%/doc/code/classes/Gitlab/APIHelpers.html
+%%WWWDIR%%/doc/code/classes/Gitlab/AppLogger.html
+%%WWWDIR%%/doc/code/classes/Gitlab/Application.html
+%%WWWDIR%%/doc/code/classes/Gitlab/Auth.html
+%%WWWDIR%%/doc/code/classes/Gitlab/Entities.html
+%%WWWDIR%%/doc/code/classes/Gitlab/Entities/Hook.html
+%%WWWDIR%%/doc/code/classes/Gitlab/Entities/Issue.html
+%%WWWDIR%%/doc/code/classes/Gitlab/Entities/MRNote.html
+%%WWWDIR%%/doc/code/classes/Gitlab/Entities/MergeRequest.html
+%%WWWDIR%%/doc/code/classes/Gitlab/Entities/Milestone.html
+%%WWWDIR%%/doc/code/classes/Gitlab/Entities/Note.html
+%%WWWDIR%%/doc/code/classes/Gitlab/Entities/Project.html
+%%WWWDIR%%/doc/code/classes/Gitlab/Entities/ProjectMember.html
+%%WWWDIR%%/doc/code/classes/Gitlab/Entities/ProjectSnippet.html
+%%WWWDIR%%/doc/code/classes/Gitlab/Entities/RepoCommit.html
+%%WWWDIR%%/doc/code/classes/Gitlab/Entities/RepoObject.html
+%%WWWDIR%%/doc/code/classes/Gitlab/Entities/SSHKey.html
+%%WWWDIR%%/doc/code/classes/Gitlab/Entities/User.html
+%%WWWDIR%%/doc/code/classes/Gitlab/Entities/UserBasic.html
+%%WWWDIR%%/doc/code/classes/Gitlab/Entities/UserLogin.html
+%%WWWDIR%%/doc/code/classes/Gitlab/GitLogger.html
+%%WWWDIR%%/doc/code/classes/Gitlab/GitStats.html
+%%WWWDIR%%/doc/code/classes/Gitlab/Gitolite.html
+%%WWWDIR%%/doc/code/classes/Gitlab/Gitolite/AccessDenied.html
+%%WWWDIR%%/doc/code/classes/Gitlab/GitoliteConfig.html
+%%WWWDIR%%/doc/code/classes/Gitlab/GitoliteConfig/PullError.html
+%%WWWDIR%%/doc/code/classes/Gitlab/GitoliteConfig/PushError.html
+%%WWWDIR%%/doc/code/classes/Gitlab/Graph.html
+%%WWWDIR%%/doc/code/classes/Gitlab/Graph/Commit.html
+%%WWWDIR%%/doc/code/classes/Gitlab/Graph/JsonBuilder.html
+%%WWWDIR%%/doc/code/classes/Gitlab/InlineDiff.html
+%%WWWDIR%%/doc/code/classes/Gitlab/Issues.html
+%%WWWDIR%%/doc/code/classes/Gitlab/Logger.html
+%%WWWDIR%%/doc/code/classes/Gitlab/Markdown.html
+%%WWWDIR%%/doc/code/classes/Gitlab/MergeRequests.html
+%%WWWDIR%%/doc/code/classes/Gitlab/Milestones.html
+%%WWWDIR%%/doc/code/classes/Gitlab/Notes.html
+%%WWWDIR%%/doc/code/classes/Gitlab/ProjectMover.html
+%%WWWDIR%%/doc/code/classes/Gitlab/ProjectMover/ProjectMoveError.html
+%%WWWDIR%%/doc/code/classes/Gitlab/Projects.html
+%%WWWDIR%%/doc/code/classes/Gitlab/Regex.html
+%%WWWDIR%%/doc/code/classes/Gitlab/Satellite.html
+%%WWWDIR%%/doc/code/classes/Gitlab/Satellite/Action.html
+%%WWWDIR%%/doc/code/classes/Gitlab/Satellite/EditFileAction.html
+%%WWWDIR%%/doc/code/classes/Gitlab/Satellite/MergeAction.html
+%%WWWDIR%%/doc/code/classes/Gitlab/Satellite/Satellite.html
+%%WWWDIR%%/doc/code/classes/Gitlab/Seeder.html
+%%WWWDIR%%/doc/code/classes/Gitlab/Session.html
+%%WWWDIR%%/doc/code/classes/Gitlab/Theme.html
+%%WWWDIR%%/doc/code/classes/Gitlab/Users.html
+%%WWWDIR%%/doc/code/classes/GitlabCiService.html
+%%WWWDIR%%/doc/code/classes/GitlabMarkdownHelper.html
+%%WWWDIR%%/doc/code/classes/Grack.html
+%%WWWDIR%%/doc/code/classes/Grack/Auth.html
+%%WWWDIR%%/doc/code/classes/Group.html
+%%WWWDIR%%/doc/code/classes/GroupsController.html
+%%WWWDIR%%/doc/code/classes/HelpController.html
+%%WWWDIR%%/doc/code/classes/HooksController.html
+%%WWWDIR%%/doc/code/classes/Issue.html
+%%WWWDIR%%/doc/code/classes/IssueCommonality.html
+%%WWWDIR%%/doc/code/classes/IssueCommonality/ClassMethods.html
+%%WWWDIR%%/doc/code/classes/IssueObserver.html
+%%WWWDIR%%/doc/code/classes/IssuesBulkUpdateContext.html
+%%WWWDIR%%/doc/code/classes/IssuesController.html
+%%WWWDIR%%/doc/code/classes/IssuesHelper.html
+%%WWWDIR%%/doc/code/classes/IssuesListContext.html
+%%WWWDIR%%/doc/code/classes/Key.html
+%%WWWDIR%%/doc/code/classes/KeyObserver.html
+%%WWWDIR%%/doc/code/classes/KeysController.html
+%%WWWDIR%%/doc/code/classes/LabelsController.html
+%%WWWDIR%%/doc/code/classes/MergeRequest.html
+%%WWWDIR%%/doc/code/classes/MergeRequestObserver.html
+%%WWWDIR%%/doc/code/classes/MergeRequestsController.html
+%%WWWDIR%%/doc/code/classes/MergeRequestsHelper.html
+%%WWWDIR%%/doc/code/classes/MergeRequestsLoadContext.html
+%%WWWDIR%%/doc/code/classes/Milestone.html
+%%WWWDIR%%/doc/code/classes/MilestonesController.html
+%%WWWDIR%%/doc/code/classes/Namespace.html
+%%WWWDIR%%/doc/code/classes/NamespacedProject.html
+%%WWWDIR%%/doc/code/classes/NamespacesHelper.html
+%%WWWDIR%%/doc/code/classes/Note.html
+%%WWWDIR%%/doc/code/classes/NoteEvent.html
+%%WWWDIR%%/doc/code/classes/NoteObserver.html
+%%WWWDIR%%/doc/code/classes/Notes.html
+%%WWWDIR%%/doc/code/classes/Notes/CreateContext.html
+%%WWWDIR%%/doc/code/classes/Notes/LoadContext.html
+%%WWWDIR%%/doc/code/classes/NotesController.html
+%%WWWDIR%%/doc/code/classes/NotesHelper.html
+%%WWWDIR%%/doc/code/classes/Notify.html
+%%WWWDIR%%/doc/code/classes/Object.html
+%%WWWDIR%%/doc/code/classes/OmniauthCallbacksController.html
+%%WWWDIR%%/doc/code/classes/PostReceive.html
+%%WWWDIR%%/doc/code/classes/ProfileHelper.html
+%%WWWDIR%%/doc/code/classes/ProfilesController.html
+%%WWWDIR%%/doc/code/classes/Project.html
+%%WWWDIR%%/doc/code/classes/Project/TransferError.html
+%%WWWDIR%%/doc/code/classes/ProjectHook.html
+%%WWWDIR%%/doc/code/classes/ProjectObserver.html
+%%WWWDIR%%/doc/code/classes/ProjectResourceController.html
+%%WWWDIR%%/doc/code/classes/ProjectUpdateContext.html
+%%WWWDIR%%/doc/code/classes/ProjectsController.html
+%%WWWDIR%%/doc/code/classes/ProjectsHelper.html
+%%WWWDIR%%/doc/code/classes/ProtectedBranch.html
+%%WWWDIR%%/doc/code/classes/ProtectedBranchesController.html
+%%WWWDIR%%/doc/code/classes/PushEvent.html
+%%WWWDIR%%/doc/code/classes/PushObserver.html
+%%WWWDIR%%/doc/code/classes/Redcarpet.html
+%%WWWDIR%%/doc/code/classes/Redcarpet/Render.html
+%%WWWDIR%%/doc/code/classes/Redcarpet/Render/GitlabHTML.html
+%%WWWDIR%%/doc/code/classes/RefsController.html
+%%WWWDIR%%/doc/code/classes/RepositoriesController.html
+%%WWWDIR%%/doc/code/classes/Repository.html
+%%WWWDIR%%/doc/code/classes/ResqueAuthentication.html
+%%WWWDIR%%/doc/code/classes/SearchContext.html
+%%WWWDIR%%/doc/code/classes/SearchController.html
+%%WWWDIR%%/doc/code/classes/Service.html
+%%WWWDIR%%/doc/code/classes/ServiceHook.html
+%%WWWDIR%%/doc/code/classes/ServicesController.html
+%%WWWDIR%%/doc/code/classes/Settings.html
+%%WWWDIR%%/doc/code/classes/Snippet.html
+%%WWWDIR%%/doc/code/classes/SnippetsController.html
+%%WWWDIR%%/doc/code/classes/SnippetsHelper.html
+%%WWWDIR%%/doc/code/classes/StaticModel.html
+%%WWWDIR%%/doc/code/classes/StaticModel/ClassMethods.html
+%%WWWDIR%%/doc/code/classes/SystemHook.html
+%%WWWDIR%%/doc/code/classes/SystemHookObserver.html
+%%WWWDIR%%/doc/code/classes/SystemHookWorker.html
+%%WWWDIR%%/doc/code/classes/TabHelper.html
+%%WWWDIR%%/doc/code/classes/TagsHelper.html
+%%WWWDIR%%/doc/code/classes/Team.html
+%%WWWDIR%%/doc/code/classes/TeamMembersController.html
+%%WWWDIR%%/doc/code/classes/TestHookContext.html
+%%WWWDIR%%/doc/code/classes/Tree.html
+%%WWWDIR%%/doc/code/classes/TreeController.html
+%%WWWDIR%%/doc/code/classes/TreeDecorator.html
+%%WWWDIR%%/doc/code/classes/TreeHelper.html
+%%WWWDIR%%/doc/code/classes/User.html
+%%WWWDIR%%/doc/code/classes/UserDecorator.html
+%%WWWDIR%%/doc/code/classes/UserObserver.html
+%%WWWDIR%%/doc/code/classes/UsersProject.html
+%%WWWDIR%%/doc/code/classes/UsersProjectObserver.html
+%%WWWDIR%%/doc/code/classes/Votes.html
+%%WWWDIR%%/doc/code/classes/WebHook.html
+%%WWWDIR%%/doc/code/classes/Wiki.html
+%%WWWDIR%%/doc/code/classes/WikisController.html
+%%WWWDIR%%/doc/code/created.rid
+%%WWWDIR%%/doc/code/css/github.css
+%%WWWDIR%%/doc/code/css/main.css
+%%WWWDIR%%/doc/code/css/panel.css
+%%WWWDIR%%/doc/code/css/reset.css
+%%WWWDIR%%/doc/code/favicon.ico
+%%WWWDIR%%/doc/code/files/app/assets/fonts/OFL_txt.html
+%%WWWDIR%%/doc/code/files/app/contexts/base_context_rb.html
+%%WWWDIR%%/doc/code/files/app/contexts/commit_load_context_rb.html
+%%WWWDIR%%/doc/code/files/app/contexts/issues_bulk_update_context_rb.html
+%%WWWDIR%%/doc/code/files/app/contexts/issues_list_context_rb.html
+%%WWWDIR%%/doc/code/files/app/contexts/merge_requests_load_context_rb.html
+%%WWWDIR%%/doc/code/files/app/contexts/notes/create_context_rb.html
+%%WWWDIR%%/doc/code/files/app/contexts/notes/load_context_rb.html
+%%WWWDIR%%/doc/code/files/app/contexts/project_update_context_rb.html
+%%WWWDIR%%/doc/code/files/app/contexts/search_context_rb.html
+%%WWWDIR%%/doc/code/files/app/contexts/test_hook_context_rb.html
+%%WWWDIR%%/doc/code/files/app/controllers/admin/dashboard_controller_rb.html
+%%WWWDIR%%/doc/code/files/app/controllers/admin/groups_controller_rb.html
+%%WWWDIR%%/doc/code/files/app/controllers/admin/hooks_controller_rb.html
+%%WWWDIR%%/doc/code/files/app/controllers/admin/logs_controller_rb.html
+%%WWWDIR%%/doc/code/files/app/controllers/admin/projects_controller_rb.html
+%%WWWDIR%%/doc/code/files/app/controllers/admin/resque_controller_rb.html
+%%WWWDIR%%/doc/code/files/app/controllers/admin/team_members_controller_rb.html
+%%WWWDIR%%/doc/code/files/app/controllers/admin/users_controller_rb.html
+%%WWWDIR%%/doc/code/files/app/controllers/admin_controller_rb.html
+%%WWWDIR%%/doc/code/files/app/controllers/application_controller_rb.html
+%%WWWDIR%%/doc/code/files/app/controllers/blame_controller_rb.html
+%%WWWDIR%%/doc/code/files/app/controllers/blob_controller_rb.html
+%%WWWDIR%%/doc/code/files/app/controllers/commit_controller_rb.html
+%%WWWDIR%%/doc/code/files/app/controllers/commits_controller_rb.html
+%%WWWDIR%%/doc/code/files/app/controllers/compare_controller_rb.html
+%%WWWDIR%%/doc/code/files/app/controllers/dashboard_controller_rb.html
+%%WWWDIR%%/doc/code/files/app/controllers/deploy_keys_controller_rb.html
+%%WWWDIR%%/doc/code/files/app/controllers/errors_controller_rb.html
+%%WWWDIR%%/doc/code/files/app/controllers/groups_controller_rb.html
+%%WWWDIR%%/doc/code/files/app/controllers/help_controller_rb.html
+%%WWWDIR%%/doc/code/files/app/controllers/hooks_controller_rb.html
+%%WWWDIR%%/doc/code/files/app/controllers/issues_controller_rb.html
+%%WWWDIR%%/doc/code/files/app/controllers/keys_controller_rb.html
+%%WWWDIR%%/doc/code/files/app/controllers/labels_controller_rb.html
+%%WWWDIR%%/doc/code/files/app/controllers/merge_requests_controller_rb.html
+%%WWWDIR%%/doc/code/files/app/controllers/milestones_controller_rb.html
+%%WWWDIR%%/doc/code/files/app/controllers/notes_controller_rb.html
+%%WWWDIR%%/doc/code/files/app/controllers/omniauth_callbacks_controller_rb.html
+%%WWWDIR%%/doc/code/files/app/controllers/profiles_controller_rb.html
+%%WWWDIR%%/doc/code/files/app/controllers/project_resource_controller_rb.html
+%%WWWDIR%%/doc/code/files/app/controllers/projects_controller_rb.html
+%%WWWDIR%%/doc/code/files/app/controllers/protected_branches_controller_rb.html
+%%WWWDIR%%/doc/code/files/app/controllers/refs_controller_rb.html
+%%WWWDIR%%/doc/code/files/app/controllers/repositories_controller_rb.html
+%%WWWDIR%%/doc/code/files/app/controllers/search_controller_rb.html
+%%WWWDIR%%/doc/code/files/app/controllers/services_controller_rb.html
+%%WWWDIR%%/doc/code/files/app/controllers/snippets_controller_rb.html
+%%WWWDIR%%/doc/code/files/app/controllers/team_members_controller_rb.html
+%%WWWDIR%%/doc/code/files/app/controllers/tree_controller_rb.html
+%%WWWDIR%%/doc/code/files/app/controllers/wikis_controller_rb.html
+%%WWWDIR%%/doc/code/files/app/decorators/application_decorator_rb.html
+%%WWWDIR%%/doc/code/files/app/decorators/commit_decorator_rb.html
+%%WWWDIR%%/doc/code/files/app/decorators/event_decorator_rb.html
+%%WWWDIR%%/doc/code/files/app/decorators/tree_decorator_rb.html
+%%WWWDIR%%/doc/code/files/app/decorators/user_decorator_rb.html
+%%WWWDIR%%/doc/code/files/app/helpers/application_helper_rb.html
+%%WWWDIR%%/doc/code/files/app/helpers/commits_helper_rb.html
+%%WWWDIR%%/doc/code/files/app/helpers/dashboard_helper_rb.html
+%%WWWDIR%%/doc/code/files/app/helpers/events_helper_rb.html
+%%WWWDIR%%/doc/code/files/app/helpers/gitlab_markdown_helper_rb.html
+%%WWWDIR%%/doc/code/files/app/helpers/issues_helper_rb.html
+%%WWWDIR%%/doc/code/files/app/helpers/merge_requests_helper_rb.html
+%%WWWDIR%%/doc/code/files/app/helpers/namespaces_helper_rb.html
+%%WWWDIR%%/doc/code/files/app/helpers/notes_helper_rb.html
+%%WWWDIR%%/doc/code/files/app/helpers/profile_helper_rb.html
+%%WWWDIR%%/doc/code/files/app/helpers/projects_helper_rb.html
+%%WWWDIR%%/doc/code/files/app/helpers/snippets_helper_rb.html
+%%WWWDIR%%/doc/code/files/app/helpers/tab_helper_rb.html
+%%WWWDIR%%/doc/code/files/app/helpers/tags_helper_rb.html
+%%WWWDIR%%/doc/code/files/app/helpers/tree_helper_rb.html
+%%WWWDIR%%/doc/code/files/app/mailers/notify_rb.html
+%%WWWDIR%%/doc/code/files/app/models/ability_rb.html
+%%WWWDIR%%/doc/code/files/app/models/commit_rb.html
+%%WWWDIR%%/doc/code/files/app/models/event_rb.html
+%%WWWDIR%%/doc/code/files/app/models/gitlab_ci_service_rb.html
+%%WWWDIR%%/doc/code/files/app/models/group_rb.html
+%%WWWDIR%%/doc/code/files/app/models/issue_rb.html
+%%WWWDIR%%/doc/code/files/app/models/key_rb.html
+%%WWWDIR%%/doc/code/files/app/models/merge_request_rb.html
+%%WWWDIR%%/doc/code/files/app/models/milestone_rb.html
+%%WWWDIR%%/doc/code/files/app/models/namespace_rb.html
+%%WWWDIR%%/doc/code/files/app/models/note_rb.html
+%%WWWDIR%%/doc/code/files/app/models/project_hook_rb.html
+%%WWWDIR%%/doc/code/files/app/models/project_rb.html
+%%WWWDIR%%/doc/code/files/app/models/protected_branch_rb.html
+%%WWWDIR%%/doc/code/files/app/models/service_hook_rb.html
+%%WWWDIR%%/doc/code/files/app/models/service_rb.html
+%%WWWDIR%%/doc/code/files/app/models/snippet_rb.html
+%%WWWDIR%%/doc/code/files/app/models/system_hook_rb.html
+%%WWWDIR%%/doc/code/files/app/models/tree_rb.html
+%%WWWDIR%%/doc/code/files/app/models/user_rb.html
+%%WWWDIR%%/doc/code/files/app/models/users_project_rb.html
+%%WWWDIR%%/doc/code/files/app/models/web_hook_rb.html
+%%WWWDIR%%/doc/code/files/app/models/wiki_rb.html
+%%WWWDIR%%/doc/code/files/app/observers/activity_observer_rb.html
+%%WWWDIR%%/doc/code/files/app/observers/issue_observer_rb.html
+%%WWWDIR%%/doc/code/files/app/observers/key_observer_rb.html
+%%WWWDIR%%/doc/code/files/app/observers/merge_request_observer_rb.html
+%%WWWDIR%%/doc/code/files/app/observers/note_observer_rb.html
+%%WWWDIR%%/doc/code/files/app/observers/project_observer_rb.html
+%%WWWDIR%%/doc/code/files/app/observers/system_hook_observer_rb.html
+%%WWWDIR%%/doc/code/files/app/observers/user_observer_rb.html
+%%WWWDIR%%/doc/code/files/app/observers/users_project_observer_rb.html
+%%WWWDIR%%/doc/code/files/app/roles/account_rb.html
+%%WWWDIR%%/doc/code/files/app/roles/authority_rb.html
+%%WWWDIR%%/doc/code/files/app/roles/git_host_rb.html
+%%WWWDIR%%/doc/code/files/app/roles/issue_commonality_rb.html
+%%WWWDIR%%/doc/code/files/app/roles/namespaced_project_rb.html
+%%WWWDIR%%/doc/code/files/app/roles/note_event_rb.html
+%%WWWDIR%%/doc/code/files/app/roles/push_event_rb.html
+%%WWWDIR%%/doc/code/files/app/roles/push_observer_rb.html
+%%WWWDIR%%/doc/code/files/app/roles/repository_rb.html
+%%WWWDIR%%/doc/code/files/app/roles/static_model_rb.html
+%%WWWDIR%%/doc/code/files/app/roles/team_rb.html
+%%WWWDIR%%/doc/code/files/app/roles/votes_rb.html
+%%WWWDIR%%/doc/code/files/app/uploaders/attachment_uploader_rb.html
+%%WWWDIR%%/doc/code/files/app/workers/post_receive_rb.html
+%%WWWDIR%%/doc/code/files/app/workers/system_hook_worker_rb.html
+%%WWWDIR%%/doc/code/files/config/application_rb.html
+%%WWWDIR%%/doc/code/files/config/boot_rb.html
+%%WWWDIR%%/doc/code/files/config/environment_rb.html
+%%WWWDIR%%/doc/code/files/config/environments/development_rb.html
+%%WWWDIR%%/doc/code/files/config/environments/production_rb.html
+%%WWWDIR%%/doc/code/files/config/environments/test_rb.html
+%%WWWDIR%%/doc/code/files/config/initializers/1_settings_rb.html
+%%WWWDIR%%/doc/code/files/config/initializers/2_app_rb.html
+%%WWWDIR%%/doc/code/files/config/initializers/3_grit_ext_rb.html
+%%WWWDIR%%/doc/code/files/config/initializers/4_resque_rb.html
+%%WWWDIR%%/doc/code/files/config/initializers/5_backend_rb.html
+%%WWWDIR%%/doc/code/files/config/initializers/backtrace_silencers_rb.html
+%%WWWDIR%%/doc/code/files/config/initializers/carrierwave_rb.html
+%%WWWDIR%%/doc/code/files/config/initializers/connection_fix_rb.html
+%%WWWDIR%%/doc/code/files/config/initializers/devise_rb.html
+%%WWWDIR%%/doc/code/files/config/initializers/gemoji_rb.html
+%%WWWDIR%%/doc/code/files/config/initializers/inflections_rb.html
+%%WWWDIR%%/doc/code/files/config/initializers/kaminari_config_rb.html
+%%WWWDIR%%/doc/code/files/config/initializers/mime_types_rb.html
+%%WWWDIR%%/doc/code/files/config/initializers/passenger_fix_rb.html
+%%WWWDIR%%/doc/code/files/config/initializers/postgresql_limit_fix_rb.html
+%%WWWDIR%%/doc/code/files/config/initializers/secret_token_rb.html
+%%WWWDIR%%/doc/code/files/config/initializers/session_store_rb.html
+%%WWWDIR%%/doc/code/files/config/initializers/wrap_parameters_rb.html
+%%WWWDIR%%/doc/code/files/config/routes_rb.html
+%%WWWDIR%%/doc/code/files/config/unicorn_rb.html
+%%WWWDIR%%/doc/code/files/lib/api/entities_rb.html
+%%WWWDIR%%/doc/code/files/lib/api/helpers_rb.html
+%%WWWDIR%%/doc/code/files/lib/api/issues_rb.html
+%%WWWDIR%%/doc/code/files/lib/api/merge_requests_rb.html
+%%WWWDIR%%/doc/code/files/lib/api/milestones_rb.html
+%%WWWDIR%%/doc/code/files/lib/api/notes_rb.html
+%%WWWDIR%%/doc/code/files/lib/api/projects_rb.html
+%%WWWDIR%%/doc/code/files/lib/api/session_rb.html
+%%WWWDIR%%/doc/code/files/lib/api/users_rb.html
+%%WWWDIR%%/doc/code/files/lib/api_rb.html
+%%WWWDIR%%/doc/code/files/lib/event_filter_rb.html
+%%WWWDIR%%/doc/code/files/lib/extracts_path_rb.html
+%%WWWDIR%%/doc/code/files/lib/file_size_validator_rb.html
+%%WWWDIR%%/doc/code/files/lib/gitlab/app_logger_rb.html
+%%WWWDIR%%/doc/code/files/lib/gitlab/auth_rb.html
+%%WWWDIR%%/doc/code/files/lib/gitlab/backend/gitolite_config_rb.html
+%%WWWDIR%%/doc/code/files/lib/gitlab/backend/gitolite_rb.html
+%%WWWDIR%%/doc/code/files/lib/gitlab/backend/grack_auth_rb.html
+%%WWWDIR%%/doc/code/files/lib/gitlab/git_logger_rb.html
+%%WWWDIR%%/doc/code/files/lib/gitlab/git_stats_rb.html
+%%WWWDIR%%/doc/code/files/lib/gitlab/graph/commit_rb.html
+%%WWWDIR%%/doc/code/files/lib/gitlab/graph/json_builder_rb.html
+%%WWWDIR%%/doc/code/files/lib/gitlab/inline_diff_rb.html
+%%WWWDIR%%/doc/code/files/lib/gitlab/logger_rb.html
+%%WWWDIR%%/doc/code/files/lib/gitlab/markdown_rb.html
+%%WWWDIR%%/doc/code/files/lib/gitlab/project_mover_rb.html
+%%WWWDIR%%/doc/code/files/lib/gitlab/regex_rb.html
+%%WWWDIR%%/doc/code/files/lib/gitlab/satellite/action_rb.html
+%%WWWDIR%%/doc/code/files/lib/gitlab/satellite/edit_file_action_rb.html
+%%WWWDIR%%/doc/code/files/lib/gitlab/satellite/merge_action_rb.html
+%%WWWDIR%%/doc/code/files/lib/gitlab/satellite/satellite_rb.html
+%%WWWDIR%%/doc/code/files/lib/gitlab/seeder_rb.html
+%%WWWDIR%%/doc/code/files/lib/gitlab/theme_rb.html
+%%WWWDIR%%/doc/code/files/lib/hooks/post-receive.html
+%%WWWDIR%%/doc/code/files/lib/redcarpet/render/gitlab_html_rb.html
+%%WWWDIR%%/doc/code/i/arrows.png
+%%WWWDIR%%/doc/code/i/results_bg.png
+%%WWWDIR%%/doc/code/i/tree_bg.png
+%%WWWDIR%%/doc/code/index.html
+%%WWWDIR%%/doc/code/js/highlight.pack.js
+%%WWWDIR%%/doc/code/js/jquery-1.3.2.min.js
+%%WWWDIR%%/doc/code/js/jquery-effect.js
+%%WWWDIR%%/doc/code/js/main.js
+%%WWWDIR%%/doc/code/js/navigation.js
+%%WWWDIR%%/doc/code/js/search_index.js
+%%WWWDIR%%/doc/code/js/searchdoc.js
+%%WWWDIR%%/doc/code/js/searcher.js
+%%WWWDIR%%/doc/code/panel/index.html
+%%WWWDIR%%/doc/code/panel/links.html
+%%WWWDIR%%/doc/code/panel/tree.js
+%%WWWDIR%%/doc/install/databases.md
+%%WWWDIR%%/doc/install/installation.md
+%%WWWDIR%%/doc/install/requirements.md
+%%WWWDIR%%/doc/install/structure.md
+%%WWWDIR%%/doc/raketasks/backup_restore.md
+%%WWWDIR%%/doc/raketasks/cleanup.md
+%%WWWDIR%%/doc/raketasks/features.md
+%%WWWDIR%%/doc/raketasks/maintenance.md
+%%WWWDIR%%/doc/raketasks/user_management.md
+%%WWWDIR%%/features/admin/active_tab.feature
+%%WWWDIR%%/features/admin/groups.feature
+%%WWWDIR%%/features/admin/logs.feature
+%%WWWDIR%%/features/admin/projects.feature
+%%WWWDIR%%/features/admin/teams.feature
+%%WWWDIR%%/features/admin/users.feature
+%%WWWDIR%%/features/dashboard/active_tab.feature
+%%WWWDIR%%/features/dashboard/dashboard.feature
+%%WWWDIR%%/features/dashboard/event_filters.feature
+%%WWWDIR%%/features/dashboard/issues.feature
+%%WWWDIR%%/features/dashboard/merge_requests.feature
+%%WWWDIR%%/features/dashboard/projects.feature
+%%WWWDIR%%/features/dashboard/search.feature
+%%WWWDIR%%/features/group/create_group.feature
+%%WWWDIR%%/features/group/group.feature
+%%WWWDIR%%/features/profile/active_tab.feature
+%%WWWDIR%%/features/profile/profile.feature
+%%WWWDIR%%/features/profile/ssh_keys.feature
+%%WWWDIR%%/features/project/active_tab.feature
+%%WWWDIR%%/features/project/commits/branches.feature
+%%WWWDIR%%/features/project/commits/commit_comments.feature
+%%WWWDIR%%/features/project/commits/commit_diff_comments.feature
+%%WWWDIR%%/features/project/commits/commits.feature
+%%WWWDIR%%/features/project/commits/tags.feature
+%%WWWDIR%%/features/project/create_project.feature
+%%WWWDIR%%/features/project/hooks.feature
+%%WWWDIR%%/features/project/issues/issues.feature
+%%WWWDIR%%/features/project/issues/labels.feature
+%%WWWDIR%%/features/project/issues/milestones.feature
+%%WWWDIR%%/features/project/merge_requests.feature
+%%WWWDIR%%/features/project/network.feature
+%%WWWDIR%%/features/project/project.feature
+%%WWWDIR%%/features/project/service.feature
+%%WWWDIR%%/features/project/source/browse_files.feature
+%%WWWDIR%%/features/project/source/git_blame.feature
+%%WWWDIR%%/features/project/team_management.feature
+%%WWWDIR%%/features/project/wall.feature
+%%WWWDIR%%/features/project/wiki.feature
+%%WWWDIR%%/features/steps/admin/admin_active_tab.rb
+%%WWWDIR%%/features/steps/admin/admin_groups.rb
+%%WWWDIR%%/features/steps/admin/admin_logs.rb
+%%WWWDIR%%/features/steps/admin/admin_projects.rb
+%%WWWDIR%%/features/steps/admin/admin_teams.rb
+%%WWWDIR%%/features/steps/admin/admin_users.rb
+%%WWWDIR%%/features/steps/dashboard/dashboard.rb
+%%WWWDIR%%/features/steps/dashboard/dashboard_active_tab.rb
+%%WWWDIR%%/features/steps/dashboard/dashboard_event_filters.rb
+%%WWWDIR%%/features/steps/dashboard/dashboard_issues.rb
+%%WWWDIR%%/features/steps/dashboard/dashboard_merge_requests.rb
+%%WWWDIR%%/features/steps/dashboard/dashboard_search.rb
+%%WWWDIR%%/features/steps/group/group.rb
+%%WWWDIR%%/features/steps/profile/profile.rb
+%%WWWDIR%%/features/steps/profile/profile_active_tab.rb
+%%WWWDIR%%/features/steps/profile/profile_ssh_keys.rb
+%%WWWDIR%%/features/steps/project/comments_on_commit_diffs.rb
+%%WWWDIR%%/features/steps/project/comments_on_commits.rb
+%%WWWDIR%%/features/steps/project/create_project.rb
+%%WWWDIR%%/features/steps/project/project.rb
+%%WWWDIR%%/features/steps/project/project_active_tab.rb
+%%WWWDIR%%/features/steps/project/project_browse_branches.rb
+%%WWWDIR%%/features/steps/project/project_browse_commits.rb
+%%WWWDIR%%/features/steps/project/project_browse_files.rb
+%%WWWDIR%%/features/steps/project/project_browse_git_repo.rb
+%%WWWDIR%%/features/steps/project/project_browse_tags.rb
+%%WWWDIR%%/features/steps/project/project_hooks.rb
+%%WWWDIR%%/features/steps/project/project_issues.rb
+%%WWWDIR%%/features/steps/project/project_labels.rb
+%%WWWDIR%%/features/steps/project/project_merge_requests.rb
+%%WWWDIR%%/features/steps/project/project_milestones.rb
+%%WWWDIR%%/features/steps/project/project_network_graph.rb
+%%WWWDIR%%/features/steps/project/project_services.rb
+%%WWWDIR%%/features/steps/project/project_team_management.rb
+%%WWWDIR%%/features/steps/project/project_wall.rb
+%%WWWDIR%%/features/steps/project/project_wiki.rb
+%%WWWDIR%%/features/steps/shared/active_tab.rb
+%%WWWDIR%%/features/steps/shared/admin.rb
+%%WWWDIR%%/features/steps/shared/authentication.rb
+%%WWWDIR%%/features/steps/shared/diff_note.rb
+%%WWWDIR%%/features/steps/shared/note.rb
+%%WWWDIR%%/features/steps/shared/paths.rb
+%%WWWDIR%%/features/steps/shared/project.rb
+%%WWWDIR%%/features/steps/userteams/userteams.rb
+%%WWWDIR%%/features/support/env.rb
+%%WWWDIR%%/features/teams/team.feature
+%%WWWDIR%%/lib/api.rb
+%%WWWDIR%%/lib/api/entities.rb
+%%WWWDIR%%/lib/api/groups.rb
+%%WWWDIR%%/lib/api/helpers.rb
+%%WWWDIR%%/lib/api/issues.rb
+%%WWWDIR%%/lib/api/merge_requests.rb
+%%WWWDIR%%/lib/api/milestones.rb
+%%WWWDIR%%/lib/api/notes.rb
+%%WWWDIR%%/lib/api/projects.rb
+%%WWWDIR%%/lib/api/session.rb
+%%WWWDIR%%/lib/api/users.rb
+%%WWWDIR%%/lib/assets/.gitkeep
+%%WWWDIR%%/lib/event_filter.rb
+%%WWWDIR%%/lib/extracts_path.rb
+%%WWWDIR%%/lib/file_size_validator.rb
+%%WWWDIR%%/lib/gitlab/app_logger.rb
+%%WWWDIR%%/lib/gitlab/auth.rb
+%%WWWDIR%%/lib/gitlab/backend/gitolite.rb
+%%WWWDIR%%/lib/gitlab/backend/gitolite_config.rb
+%%WWWDIR%%/lib/gitlab/backend/grack_auth.rb
+%%WWWDIR%%/lib/gitlab/git_logger.rb
+%%WWWDIR%%/lib/gitlab/git_stats.rb
+%%WWWDIR%%/lib/gitlab/graph/commit.rb
+%%WWWDIR%%/lib/gitlab/graph/json_builder.rb
+%%WWWDIR%%/lib/gitlab/inline_diff.rb
+%%WWWDIR%%/lib/gitlab/logger.rb
+%%WWWDIR%%/lib/gitlab/markdown.rb
+%%WWWDIR%%/lib/gitlab/popen.rb
+%%WWWDIR%%/lib/gitlab/project_mover.rb
+%%WWWDIR%%/lib/gitlab/regex.rb
+%%WWWDIR%%/lib/gitlab/satellite/action.rb
+%%WWWDIR%%/lib/gitlab/satellite/edit_file_action.rb
+%%WWWDIR%%/lib/gitlab/satellite/logger.rb
+%%WWWDIR%%/lib/gitlab/satellite/merge_action.rb
+%%WWWDIR%%/lib/gitlab/satellite/satellite.rb
+%%WWWDIR%%/lib/gitlab/seeder.rb
+%%WWWDIR%%/lib/gitlab/theme.rb
+%%WWWDIR%%/lib/gitlab/user_team_manager.rb
+%%WWWDIR%%/lib/gitolited.rb
+%%WWWDIR%%/lib/hooks/post-receive
+%%WWWDIR%%/lib/redcarpet/render/gitlab_html.rb
+%%WWWDIR%%/lib/static_model.rb
+%%WWWDIR%%/lib/support/rewrite-hooks.sh
+%%WWWDIR%%/lib/support/truncate_repositories.sh
+%%WWWDIR%%/lib/tasks/.gitkeep
+%%WWWDIR%%/lib/tasks/gitlab/backup.rake
+%%WWWDIR%%/lib/tasks/gitlab/bulk_add_permission.rake
+%%WWWDIR%%/lib/tasks/gitlab/check.rake
+%%WWWDIR%%/lib/tasks/gitlab/cleanup.rake
+%%WWWDIR%%/lib/tasks/gitlab/enable_automerge.rake
+%%WWWDIR%%/lib/tasks/gitlab/enable_namespaces.rake
+%%WWWDIR%%/lib/tasks/gitlab/generate_docs.rake
+%%WWWDIR%%/lib/tasks/gitlab/gitolite_rebuild.rake
+%%WWWDIR%%/lib/tasks/gitlab/import.rake
+%%WWWDIR%%/lib/tasks/gitlab/info.rake
+%%WWWDIR%%/lib/tasks/gitlab/setup.rake
+%%WWWDIR%%/lib/tasks/gitlab/task_helpers.rake
+%%WWWDIR%%/lib/tasks/gitlab/test.rake
+%%WWWDIR%%/lib/tasks/sidekiq.rake
+%%WWWDIR%%/lib/tasks/travis.rake
+%%WWWDIR%%/public/404.html
+%%WWWDIR%%/public/422.html
+%%WWWDIR%%/public/500.html
+%%WWWDIR%%/public/deploy.html
+%%WWWDIR%%/public/favicon.ico
+%%WWWDIR%%/public/robots.txt
+%%WWWDIR%%/public/static.css
+%%WWWDIR%%/script/check
+%%WWWDIR%%/script/rails
+%%WWWDIR%%/spec/contexts/projects_create_context_spec.rb
+%%WWWDIR%%/spec/controllers/commit_controller_spec.rb
+%%WWWDIR%%/spec/controllers/commits_controller_spec.rb
+%%WWWDIR%%/spec/controllers/merge_requests_controller_spec.rb
+%%WWWDIR%%/spec/controllers/tree_controller_spec.rb
+%%WWWDIR%%/spec/factories.rb
+%%WWWDIR%%/spec/factories/user_team_project_relationships.rb
+%%WWWDIR%%/spec/factories/user_team_user_relationships.rb
+%%WWWDIR%%/spec/factories/user_teams.rb
+%%WWWDIR%%/spec/factories_spec.rb
+%%WWWDIR%%/spec/helpers/application_helper_spec.rb
+%%WWWDIR%%/spec/helpers/gitlab_markdown_helper_spec.rb
+%%WWWDIR%%/spec/helpers/tab_helper_spec.rb
+%%WWWDIR%%/spec/helpers/tree_helper_spec.rb
+%%WWWDIR%%/spec/lib/auth_spec.rb
+%%WWWDIR%%/spec/lib/extracts_path_spec.rb
+%%WWWDIR%%/spec/lib/gitolite_config_spec.rb
+%%WWWDIR%%/spec/lib/gitolite_spec.rb
+%%WWWDIR%%/spec/lib/project_mover_spec.rb
+%%WWWDIR%%/spec/lib/votes_spec.rb
+%%WWWDIR%%/spec/mailers/notify_spec.rb
+%%WWWDIR%%/spec/models/commit_spec.rb
+%%WWWDIR%%/spec/models/concerns/issuable_spec.rb
+%%WWWDIR%%/spec/models/event_spec.rb
+%%WWWDIR%%/spec/models/gitlab_ci_service_spec.rb
+%%WWWDIR%%/spec/models/group_spec.rb
+%%WWWDIR%%/spec/models/issue_spec.rb
+%%WWWDIR%%/spec/models/key_spec.rb
+%%WWWDIR%%/spec/models/merge_request_spec.rb
+%%WWWDIR%%/spec/models/milestone_spec.rb
+%%WWWDIR%%/spec/models/namespace_spec.rb
+%%WWWDIR%%/spec/models/note_spec.rb
+%%WWWDIR%%/spec/models/project_hooks_spec.rb
+%%WWWDIR%%/spec/models/project_security_spec.rb
+%%WWWDIR%%/spec/models/project_spec.rb
+%%WWWDIR%%/spec/models/project_team_spec.rb
+%%WWWDIR%%/spec/models/protected_branch_spec.rb
+%%WWWDIR%%/spec/models/repository_spec.rb
+%%WWWDIR%%/spec/models/service_hook_spec.rb
+%%WWWDIR%%/spec/models/service_spec.rb
+%%WWWDIR%%/spec/models/snippet_spec.rb
+%%WWWDIR%%/spec/models/system_hook_spec.rb
+%%WWWDIR%%/spec/models/user_spec.rb
+%%WWWDIR%%/spec/models/user_team_project_relationship_spec.rb
+%%WWWDIR%%/spec/models/user_team_spec.rb
+%%WWWDIR%%/spec/models/user_team_user_relationship_spec.rb
+%%WWWDIR%%/spec/models/users_project_spec.rb
+%%WWWDIR%%/spec/models/web_hook_spec.rb
+%%WWWDIR%%/spec/models/wiki_spec.rb
+%%WWWDIR%%/spec/observers/activity_observer_spec.rb
+%%WWWDIR%%/spec/observers/issue_observer_spec.rb
+%%WWWDIR%%/spec/observers/key_observer_spec.rb
+%%WWWDIR%%/spec/observers/merge_request_observer_spec.rb
+%%WWWDIR%%/spec/observers/note_observer_spec.rb
+%%WWWDIR%%/spec/observers/user_observer_spec.rb
+%%WWWDIR%%/spec/observers/users_project_observer_spec.rb
+%%WWWDIR%%/spec/requests/admin/admin_hooks_spec.rb
+%%WWWDIR%%/spec/requests/admin/admin_projects_spec.rb
+%%WWWDIR%%/spec/requests/admin/admin_users_spec.rb
+%%WWWDIR%%/spec/requests/admin/security_spec.rb
+%%WWWDIR%%/spec/requests/api/groups_spec.rb
+%%WWWDIR%%/spec/requests/api/issues_spec.rb
+%%WWWDIR%%/spec/requests/api/merge_requests_spec.rb
+%%WWWDIR%%/spec/requests/api/milestones_spec.rb
+%%WWWDIR%%/spec/requests/api/notes_spec.rb
+%%WWWDIR%%/spec/requests/api/projects_spec.rb
+%%WWWDIR%%/spec/requests/api/session_spec.rb
+%%WWWDIR%%/spec/requests/api/users_spec.rb
+%%WWWDIR%%/spec/requests/atom/dashboard_issues_spec.rb
+%%WWWDIR%%/spec/requests/atom/dashboard_spec.rb
+%%WWWDIR%%/spec/requests/atom/issues_spec.rb
+%%WWWDIR%%/spec/requests/gitlab_flavored_markdown_spec.rb
+%%WWWDIR%%/spec/requests/issues_spec.rb
+%%WWWDIR%%/spec/requests/notes_on_merge_requests_spec.rb
+%%WWWDIR%%/spec/requests/notes_on_wall_spec.rb
+%%WWWDIR%%/spec/requests/projects_deploy_keys_spec.rb
+%%WWWDIR%%/spec/requests/projects_spec.rb
+%%WWWDIR%%/spec/requests/search_spec.rb
+%%WWWDIR%%/spec/requests/security/profile_access_spec.rb
+%%WWWDIR%%/spec/requests/security/project_access_spec.rb
+%%WWWDIR%%/spec/requests/snippets_spec.rb
+%%WWWDIR%%/spec/routing/admin_routing_spec.rb
+%%WWWDIR%%/spec/routing/project_routing_spec.rb
+%%WWWDIR%%/spec/routing/routing_spec.rb
+%%WWWDIR%%/spec/seed_project.tar.gz
+%%WWWDIR%%/spec/spec_helper.rb
+%%WWWDIR%%/spec/support/api_helpers.rb
+%%WWWDIR%%/spec/support/db_cleaner.rb
+%%WWWDIR%%/spec/support/gitolite_stub.rb
+%%WWWDIR%%/spec/support/login_helpers.rb
+%%WWWDIR%%/spec/support/matchers.rb
+%%WWWDIR%%/spec/support/stubbed_repository.rb
+%%WWWDIR%%/spec/support/valid_commit.rb
+%%WWWDIR%%/spec/tasks/gitlab/backup_rake_spec.rb
+%%WWWDIR%%/spec/workers/post_receive_spec.rb
+@dirrm %%WWWDIR%%/spec/workers
+@dirrm %%WWWDIR%%/spec/tasks/gitlab
+@dirrm %%WWWDIR%%/spec/tasks
+@dirrm %%WWWDIR%%/spec/support
+@dirrm %%WWWDIR%%/spec/routing
+@dirrm %%WWWDIR%%/spec/requests/security
+@dirrm %%WWWDIR%%/spec/requests/atom
+@dirrm %%WWWDIR%%/spec/requests/api
+@dirrm %%WWWDIR%%/spec/requests/admin
+@dirrm %%WWWDIR%%/spec/requests
+@dirrm %%WWWDIR%%/spec/observers
+@dirrm %%WWWDIR%%/spec/models/concerns
+@dirrm %%WWWDIR%%/spec/models
+@dirrm %%WWWDIR%%/spec/mailers
+@dirrm %%WWWDIR%%/spec/lib
+@dirrm %%WWWDIR%%/spec/helpers
+@dirrm %%WWWDIR%%/spec/factories
+@dirrm %%WWWDIR%%/spec/controllers
+@dirrm %%WWWDIR%%/spec/contexts
+@dirrm %%WWWDIR%%/spec
+@dirrm %%WWWDIR%%/script
+@dirrm %%WWWDIR%%/public
+@dirrm %%WWWDIR%%/lib/tasks/gitlab
+@dirrm %%WWWDIR%%/lib/tasks
+@dirrm %%WWWDIR%%/lib/support
+@dirrm %%WWWDIR%%/lib/redcarpet/render
+@dirrm %%WWWDIR%%/lib/redcarpet
+@dirrm %%WWWDIR%%/lib/hooks
+@dirrm %%WWWDIR%%/lib/gitlab/satellite
+@dirrm %%WWWDIR%%/lib/gitlab/graph
+@dirrm %%WWWDIR%%/lib/gitlab/backend
+@dirrm %%WWWDIR%%/lib/gitlab
+@dirrm %%WWWDIR%%/lib/assets
+@dirrm %%WWWDIR%%/lib/api
+@dirrm %%WWWDIR%%/lib
+@dirrm %%WWWDIR%%/gitlab-satellites
+@dirrm %%WWWDIR%%/features/teams
+@dirrm %%WWWDIR%%/features/support
+@dirrm %%WWWDIR%%/features/steps/userteams
+@dirrm %%WWWDIR%%/features/steps/shared
+@dirrm %%WWWDIR%%/features/steps/project
+@dirrm %%WWWDIR%%/features/steps/profile
+@dirrm %%WWWDIR%%/features/steps/group
+@dirrm %%WWWDIR%%/features/steps/dashboard
+@dirrm %%WWWDIR%%/features/steps/admin
+@dirrm %%WWWDIR%%/features/steps
+@dirrm %%WWWDIR%%/features/project/source
+@dirrm %%WWWDIR%%/features/project/issues
+@dirrm %%WWWDIR%%/features/project/commits
+@dirrm %%WWWDIR%%/features/project
+@dirrm %%WWWDIR%%/features/profile
+@dirrm %%WWWDIR%%/features/group
+@dirrm %%WWWDIR%%/features/dashboard
+@dirrm %%WWWDIR%%/features/admin
+@dirrm %%WWWDIR%%/features
+@dirrm %%WWWDIR%%/doc/raketasks
+@dirrm %%WWWDIR%%/doc/install
+@dirrm %%WWWDIR%%/doc/code/panel
+@dirrm %%WWWDIR%%/doc/code/js
+@dirrm %%WWWDIR%%/doc/code/i
+@dirrm %%WWWDIR%%/doc/code/files/lib/redcarpet/render
+@dirrm %%WWWDIR%%/doc/code/files/lib/redcarpet
+@dirrm %%WWWDIR%%/doc/code/files/lib/hooks
+@dirrm %%WWWDIR%%/doc/code/files/lib/gitlab/satellite
+@dirrm %%WWWDIR%%/doc/code/files/lib/gitlab/graph
+@dirrm %%WWWDIR%%/doc/code/files/lib/gitlab/backend
+@dirrm %%WWWDIR%%/doc/code/files/lib/gitlab
+@dirrm %%WWWDIR%%/doc/code/files/lib/api
+@dirrm %%WWWDIR%%/doc/code/files/lib
+@dirrm %%WWWDIR%%/doc/code/files/config/initializers
+@dirrm %%WWWDIR%%/doc/code/files/config/environments
+@dirrm %%WWWDIR%%/doc/code/files/config
+@dirrm %%WWWDIR%%/doc/code/files/app/workers
+@dirrm %%WWWDIR%%/doc/code/files/app/uploaders
+@dirrm %%WWWDIR%%/doc/code/files/app/roles
+@dirrm %%WWWDIR%%/doc/code/files/app/observers
+@dirrm %%WWWDIR%%/doc/code/files/app/models
+@dirrm %%WWWDIR%%/doc/code/files/app/mailers
+@dirrm %%WWWDIR%%/doc/code/files/app/helpers
+@dirrm %%WWWDIR%%/doc/code/files/app/decorators
+@dirrm %%WWWDIR%%/doc/code/files/app/controllers/admin
+@dirrm %%WWWDIR%%/doc/code/files/app/controllers
+@dirrm %%WWWDIR%%/doc/code/files/app/contexts/notes
+@dirrm %%WWWDIR%%/doc/code/files/app/contexts
+@dirrm %%WWWDIR%%/doc/code/files/app/assets/fonts
+@dirrm %%WWWDIR%%/doc/code/files/app/assets
+@dirrm %%WWWDIR%%/doc/code/files/app
+@dirrm %%WWWDIR%%/doc/code/files
+@dirrm %%WWWDIR%%/doc/code/css
+@dirrm %%WWWDIR%%/doc/code/classes/StaticModel
+@dirrm %%WWWDIR%%/doc/code/classes/Redcarpet/Render
+@dirrm %%WWWDIR%%/doc/code/classes/Redcarpet
+@dirrm %%WWWDIR%%/doc/code/classes/Project
+@dirrm %%WWWDIR%%/doc/code/classes/Notes
+@dirrm %%WWWDIR%%/doc/code/classes/IssueCommonality
+@dirrm %%WWWDIR%%/doc/code/classes/Grack
+@dirrm %%WWWDIR%%/doc/code/classes/Gitlab/Satellite
+@dirrm %%WWWDIR%%/doc/code/classes/Gitlab/ProjectMover
+@dirrm %%WWWDIR%%/doc/code/classes/Gitlab/Graph
+@dirrm %%WWWDIR%%/doc/code/classes/Gitlab/GitoliteConfig
+@dirrm %%WWWDIR%%/doc/code/classes/Gitlab/Gitolite
+@dirrm %%WWWDIR%%/doc/code/classes/Gitlab/Entities
+@dirrm %%WWWDIR%%/doc/code/classes/Gitlab
+@dirrm %%WWWDIR%%/doc/code/classes/FileSizeValidator
+@dirrm %%WWWDIR%%/doc/code/classes/ExtractsPath
+@dirrm %%WWWDIR%%/doc/code/classes/Admin
+@dirrm %%WWWDIR%%/doc/code/classes/ActiveRecord/ConnectionAdapters/PostgreSQLAdapter
+@dirrm %%WWWDIR%%/doc/code/classes/ActiveRecord/ConnectionAdapters
+@dirrm %%WWWDIR%%/doc/code/classes/ActiveRecord
+@dirrm %%WWWDIR%%/doc/code/classes
+@dirrm %%WWWDIR%%/doc/code
+@dirrm %%WWWDIR%%/doc/api
+@dirrm %%WWWDIR%%/doc
+@dirrm %%WWWDIR%%/distrib
+@dirrm %%WWWDIR%%/db/migrate
+@dirrm %%WWWDIR%%/db/fixtures/test
+@dirrm %%WWWDIR%%/db/fixtures/production
+@dirrm %%WWWDIR%%/db/fixtures/development
+@dirrm %%WWWDIR%%/db/fixtures
+@dirrm %%WWWDIR%%/db
+@dirrm %%WWWDIR%%/config/locales
+@dirrm %%WWWDIR%%/config/initializers
+@dirrm %%WWWDIR%%/config/environments
+@dirrm %%WWWDIR%%/config
+@dirrm %%WWWDIR%%/app/workers
+@dirrm %%WWWDIR%%/app/views/wikis
+@dirrm %%WWWDIR%%/app/views/votes
+@dirrm %%WWWDIR%%/app/views/users
+@dirrm %%WWWDIR%%/app/views/tree/blob
+@dirrm %%WWWDIR%%/app/views/tree
+@dirrm %%WWWDIR%%/app/views/teams/projects
+@dirrm %%WWWDIR%%/app/views/teams/members
+@dirrm %%WWWDIR%%/app/views/teams
+@dirrm %%WWWDIR%%/app/views/team_members
+@dirrm %%WWWDIR%%/app/views/snippets
+@dirrm %%WWWDIR%%/app/views/shared
+@dirrm %%WWWDIR%%/app/views/services
+@dirrm %%WWWDIR%%/app/views/search
+@dirrm %%WWWDIR%%/app/views/repositories
+@dirrm %%WWWDIR%%/app/views/refs
+@dirrm %%WWWDIR%%/app/views/public/projects
+@dirrm %%WWWDIR%%/app/views/public
+@dirrm %%WWWDIR%%/app/views/protected_branches
+@dirrm %%WWWDIR%%/app/views/projects/teams
+@dirrm %%WWWDIR%%/app/views/projects
+@dirrm %%WWWDIR%%/app/views/profiles
+@dirrm %%WWWDIR%%/app/views/notify
+@dirrm %%WWWDIR%%/app/views/notes
+@dirrm %%WWWDIR%%/app/views/milestones
+@dirrm %%WWWDIR%%/app/views/merge_requests/show
+@dirrm %%WWWDIR%%/app/views/merge_requests
+@dirrm %%WWWDIR%%/app/views/layouts
+@dirrm %%WWWDIR%%/app/views/labels
+@dirrm %%WWWDIR%%/app/views/keys
+@dirrm %%WWWDIR%%/app/views/kaminari/gitlab
+@dirrm %%WWWDIR%%/app/views/kaminari/admin
+@dirrm %%WWWDIR%%/app/views/kaminari
+@dirrm %%WWWDIR%%/app/views/issues
+@dirrm %%WWWDIR%%/app/views/hooks
+@dirrm %%WWWDIR%%/app/views/help
+@dirrm %%WWWDIR%%/app/views/groups
+@dirrm %%WWWDIR%%/app/views/graph
+@dirrm %%WWWDIR%%/app/views/events/event
+@dirrm %%WWWDIR%%/app/views/events
+@dirrm %%WWWDIR%%/app/views/errors
+@dirrm %%WWWDIR%%/app/views/devise/unlocks
+@dirrm %%WWWDIR%%/app/views/devise/shared
+@dirrm %%WWWDIR%%/app/views/devise/sessions
+@dirrm %%WWWDIR%%/app/views/devise/registrations
+@dirrm %%WWWDIR%%/app/views/devise/passwords
+@dirrm %%WWWDIR%%/app/views/devise/mailer
+@dirrm %%WWWDIR%%/app/views/devise/confirmations
+@dirrm %%WWWDIR%%/app/views/devise
+@dirrm %%WWWDIR%%/app/views/deploy_keys
+@dirrm %%WWWDIR%%/app/views/dashboard
+@dirrm %%WWWDIR%%/app/views/compare
+@dirrm %%WWWDIR%%/app/views/commits
+@dirrm %%WWWDIR%%/app/views/commit
+@dirrm %%WWWDIR%%/app/views/blame
+@dirrm %%WWWDIR%%/app/views/admin/users
+@dirrm %%WWWDIR%%/app/views/admin/teams/projects
+@dirrm %%WWWDIR%%/app/views/admin/teams/members
+@dirrm %%WWWDIR%%/app/views/admin/teams
+@dirrm %%WWWDIR%%/app/views/admin/resque
+@dirrm %%WWWDIR%%/app/views/admin/projects/members
+@dirrm %%WWWDIR%%/app/views/admin/projects
+@dirrm %%WWWDIR%%/app/views/admin/logs
+@dirrm %%WWWDIR%%/app/views/admin/hooks
+@dirrm %%WWWDIR%%/app/views/admin/groups
+@dirrm %%WWWDIR%%/app/views/admin/dashboard
+@dirrm %%WWWDIR%%/app/views/admin
+@dirrm %%WWWDIR%%/app/views
+@dirrm %%WWWDIR%%/app/uploaders
+@dirrm %%WWWDIR%%/app/observers
+@dirrm %%WWWDIR%%/app/models/concerns
+@dirrm %%WWWDIR%%/app/models
+@dirrm %%WWWDIR%%/app/mailers
+@dirrm %%WWWDIR%%/app/helpers/admin/teams
+@dirrm %%WWWDIR%%/app/helpers/admin
+@dirrm %%WWWDIR%%/app/helpers
+@dirrm %%WWWDIR%%/app/decorators
+@dirrm %%WWWDIR%%/app/controllers/teams
+@dirrm %%WWWDIR%%/app/controllers/public
+@dirrm %%WWWDIR%%/app/controllers/projects
+@dirrm %%WWWDIR%%/app/controllers/admin/teams
+@dirrm %%WWWDIR%%/app/controllers/admin/projects
+@dirrm %%WWWDIR%%/app/controllers/admin
+@dirrm %%WWWDIR%%/app/controllers
+@dirrm %%WWWDIR%%/app/contexts/projects
+@dirrm %%WWWDIR%%/app/contexts/notes
+@dirrm %%WWWDIR%%/app/contexts
+@dirrm %%WWWDIR%%/app/assets/stylesheets/themes
+@dirrm %%WWWDIR%%/app/assets/stylesheets/sections
+@dirrm %%WWWDIR%%/app/assets/stylesheets/highlight
+@dirrm %%WWWDIR%%/app/assets/stylesheets/gitlab_bootstrap
+@dirrm %%WWWDIR%%/app/assets/stylesheets
+@dirrm %%WWWDIR%%/app/assets/javascripts/extensions
+@dirrm %%WWWDIR%%/app/assets/javascripts/commit
+@dirrm %%WWWDIR%%/app/assets/javascripts/behaviors
+@dirrm %%WWWDIR%%/app/assets/javascripts
+@dirrm %%WWWDIR%%/app/assets/images
+@dirrm %%WWWDIR%%/app/assets/fonts
+@dirrm %%WWWDIR%%/app/assets
+@dirrm %%WWWDIR%%/app
+@dirrm %%WWWDIR%%/.ssh
+@dirrm %%WWWDIR%%

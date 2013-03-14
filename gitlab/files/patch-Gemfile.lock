@@ -1,0 +1,24 @@
+--- Gemfile.lock.orig	2013-02-21 11:03:07.000000000 +0400
++++ Gemfile.lock	2013-03-09 19:05:31.000000000 +0400
+@@ -256,7 +256,7 @@
+       addressable (~> 2.3)
+     letter_opener (1.0.0)
+       launchy (>= 2.0.4)
+-    libv8 (3.3.10.4)
++    libv8 (3.11.8.12)
+     libwebsocket (0.1.6)
+       websocket
+     listen (0.5.3)
+@@ -435,8 +435,10 @@
+     stamp (0.3.0)
+     temple (0.5.5)
+     test_after_commit (0.0.1)
+-    therubyracer (0.10.2)
+-      libv8 (~> 3.3.10)
++    ref (1.0.2)
++    therubyracer (0.11.4)
++      libv8 (~> 3.11.8.12)
++      ref (>= 1.0.2)
+     thin (1.5.0)
+       daemons (>= 1.0.9)
+       eventmachine (>= 0.12.6)

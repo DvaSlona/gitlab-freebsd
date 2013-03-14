@@ -1,0 +1,32 @@
+#! /bin/sh
+#
+# PROVIDE: gitlab
+# REQUIRE: DAEMON
+# KEYWORD: shutdown
+
+#
+# Add the following lines to /etc/rc.conf to enable gitlab:
+#
+#gitlab_enable="YES"
+
+. /etc/rc.subr
+
+name="gitlab"
+rcvar=gitlab_enable
+extra_commands="reload"
+
+load_rc_config $name
+
+: ${gitlab_enable:=NO}
+
+
+DAEMON_OPTS="-c %%WWWDIR%%/config/unicorn.rb -E production -D"
+PID="%%WWWDIR%%/tmp/pids/unicorn.pid"
+
+start_cmd='/usr/local/bin/sudo -u gitlab /bin/sh -c "cd %%WWWDIR%% && export EXECJS_RUNTIME=RubyRacer && bundle exec unicorn_rails $DAEMON_OPTS"'
+stop_cmd='kill -QUIT `cat $PID`'
+restart_cmd='kill -USR2 `cat $PID`'
+reload_cmd='kill -HUP `cat $PID`'
+
+PATH="${PATH}:/usr/local/bin"
+run_rc_command "$1"
