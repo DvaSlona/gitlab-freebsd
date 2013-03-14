@@ -69,7 +69,7 @@ do-build:
 	fi
 
 do-install:
-	@if ! pkg_info 'ruby=>1.9.3,1' 2>/dev/null; then \
+	@if ! pkg_info 'ruby>=1.9.3,1' 2>/dev/null; then \
 		(cd ${PORTSDIR}/lang/ruby19 && make install clean); \
 	fi
 	@pw useradd ${GITLAB_USER} -g ${GITLAB_GROUP} -d ${WWWDIR} -m -s /bin/nologin -c 'GitLab'
